@@ -1,0 +1,7742 @@
+{
+ "2026-01": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-01",
+    "totalIngresos": 19265888,
+    "totalEgresos": 18254310,
+    "saldoCaja": 15229245,
+    "egresosGC": 16071096,
+    "egresosFondos": 0,
+    "egresosMedidores": 2183214,
+    "fondosAcumulados": 24267583,
+    "recurrente": 11237378,
+    "extraordinario": 2255628,
+    "variable": 2578090,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 7223247
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2300322,
+     "esPersona": false
+    },
+    "variacionEgresos": null,
+    "conciliacionOk": true,
+    "pendientes": 1,
+    "sparklines": {
+     "egresos": [
+      18254310
+     ],
+     "ingresos": [
+      19265888
+     ],
+     "saldo": [
+      15229245
+     ],
+     "fondos": [
+      24267583
+     ]
+    }
+   },
+   "insights": [
+    [
+     "pendientes-2026-01",
+     "Se detectaron 1 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     415752,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondos-bajos-2026-01",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Seguro individual de departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     265351,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "fondo-reserva-2026-01",
+     "El fondo de reserva alcanzó un saldo de $19.922.852",
+     "Equivale a 82% de los fondos acumulados ($24.267.583).",
+     19922852,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-01",
+     "El saldo en caja es $15.229.245, equivalente a 0,8 meses de egresos",
+     "Sin período anterior para comparar.",
+     15229245,
+     "info",
+     null
+    ],
+    [
+     "recurrente-2026-01",
+     "70% del gasto del período es recurrente",
+     "30 movimientos fijos suman $11.237.378; el resto es variable o extraordinario.",
+     11237378,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-01",
+     "Administración es la categoría de mayor gasto (45%)",
+     "Concentra $7.223.247 de los egresos comunitarios de enero 2026.",
+     7223247,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-01",
+     "Los gastos de uso y consumo representan 26% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $4.211.796 en enero 2026 sobre un gasto común de $16.071.096.",
+     4211796,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-02-2026-01",
+     "Existen 12 pagos registrados en febrero asociados al período de enero",
+     "Corresponden a gastos de la cartola de enero 2026 pagados en febrero 2026; no los confundas con egresos del mes siguiente.",
+     3827983,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-01",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.300.322 en electricidad (14,3% del gasto común).",
+     2300322,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-01",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$2.300.322 pagados en 1 movimiento(s) durante enero 2026.",
+     2300322,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-01",
+     "Se detectaron 7 gastos extraordinarios por $2.255.628",
+     "Representan 14% del gasto común de enero 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     2255628,
+     "info",
+     null
+    ],
+    [
+     "superavit-2026-01",
+     "Los ingresos superaron a los egresos en $1.011.578",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     1011578,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-01",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     736643,
+     "info",
+     "fondos"
+    ],
+    [
+     "conciliacion-ok-2026-01",
+     "La conciliación cuadra: 26 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "sin-doc-2026-01",
+     "Se detectaron 7 movimientos de empresas sin número de documento",
+     1416594,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-01",
+     "Se detectaron 1 registros pendientes de revisión",
+     415752,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-01",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Seguro individual de departamentos, Fondo Inspección de gases",
+     265351,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 19265888,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 16071096,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 2183214,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 1011578,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 15229245,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 7223247,
+     "cantidad": 26,
+     "participacion": 0.4494557807382894,
+     "ids": 26,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 4335320,
+       "cantidad": 15,
+       "ids": 15,
+       "participacion": 0.269758826653764
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 1713950,
+       "cantidad": 9,
+       "ids": 9,
+       "participacion": 0.1066479846800741
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 878416,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.054658126614388965
+      },
+      {
+       "nombre": "Reemplazos",
+       "icono": "📌",
+       "total": 295561,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.018390842790062357
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 4211796,
+     "cantidad": 7,
+     "participacion": 0.2620727298250225,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2300322,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.14313410858848705
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 1278501,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07955281954634581
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 604641,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.03762288520957127
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 28332,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0017629164806183724
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 2367608,
+     "cantidad": 6,
+     "participacion": 0.1473208796711811,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Red de agua caliente",
+       "icono": "🔥",
+       "total": 1270200,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.07903630219121334
+      },
+      {
+       "nombre": "Espacios comunes",
+       "icono": "📌",
+       "total": 940557,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.05852475773898681
+      },
+      {
+       "nombre": "Luminarias",
+       "icono": "⚡",
+       "total": 97836,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006087699308124349
+      },
+      {
+       "nombre": "Generador eléctrico",
+       "icono": "⚡",
+       "total": 59015,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0036721204328566018
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 2268445,
+     "cantidad": 12,
+     "participacion": 0.14115060976550697,
+     "ids": 12,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 761871,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.047406287660779325
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 453654,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.028227944130257202
+      },
+      {
+       "nombre": "Seguridad e incendio",
+       "icono": "🧯",
+       "total": 289885,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.018037662148244277
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 199230,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.012396789864238257
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 178568,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.011111127704047067
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 152795,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009507441185094034
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 104400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006496134426675069
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 87000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005413445355562558
+      },
+      {
+       "nombre": "Accesos",
+       "icono": "📌",
+       "total": 41042,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.002553777290609178
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-01",
+    "totalIngresos": 19265888,
+    "totalEgresos": 18254310,
+    "saldoCaja": 15229245,
+    "egresosGC": 16071096,
+    "egresosFondos": 0,
+    "egresosMedidores": 2183214,
+    "fondosAcumulados": 24267583,
+    "recurrente": 92709,
+    "extraordinario": 18608,
+    "variable": 21269,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 59592
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 18977,
+     "esPersona": false
+    },
+    "variacionEgresos": null,
+    "conciliacionOk": true,
+    "pendientes": 1,
+    "sparklines": {
+     "egresos": [
+      18254310
+     ],
+     "ingresos": [
+      19265888
+     ],
+     "saldo": [
+      15229245
+     ],
+     "fondos": [
+      24267583
+     ]
+    }
+   },
+   "insights": [
+    [
+     "fondos-bajos-2026-01",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Seguro individual de departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     265351,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "pendientes-2026-01",
+     "Se detectaron 1 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     3430,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondo-reserva-2026-01",
+     "El fondo de reserva alcanzó un saldo de $19.922.852",
+     "Equivale a 82% de los fondos acumulados ($24.267.583).",
+     19922852,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-01",
+     "El saldo en caja es $15.229.245, equivalente a 0,8 meses de egresos",
+     "Sin período anterior para comparar.",
+     15229245,
+     "info",
+     null
+    ],
+    [
+     "superavit-2026-01",
+     "Los ingresos superaron a los egresos en $1.011.578",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     1011578,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-01",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     736643,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-01",
+     "70% del gasto del período es recurrente",
+     "30 movimientos fijos suman $92.709; el resto es variable o extraordinario.",
+     92709,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-01",
+     "Administración es la categoría de mayor gasto (45%)",
+     "Concentra $59.592 de los egresos comunitarios de enero 2026.",
+     59592,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-01",
+     "Los gastos de uso y consumo representan 26% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $34.747 en enero 2026 sobre un gasto común de $132.586.",
+     34747,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-02-2026-01",
+     "Existen 12 pagos registrados en febrero asociados al período de enero",
+     "Corresponden a gastos de la cartola de enero 2026 pagados en febrero 2026; no los confundas con egresos del mes siguiente.",
+     31582,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-01",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $18.977 en electricidad (14,3% del gasto común).",
+     18977,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-01",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$18.977 pagados en 1 movimiento(s) durante enero 2026.",
+     18977,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-01",
+     "Se detectaron 7 gastos extraordinarios por $18.608",
+     "Representan 14% del gasto común de enero 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     18608,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-01",
+     "La conciliación cuadra: 26 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "sin-doc-2026-01",
+     "Se detectaron 7 movimientos de empresas sin número de documento",
+     1416594,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-01",
+     "Se detectaron 1 registros pendientes de revisión",
+     415752,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-01",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Seguro individual de departamentos, Fondo Inspección de gases",
+     265351,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 19265888,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 16071096,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 2183214,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 1011578,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 15229245,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 59592,
+     "cantidad": 26,
+     "participacion": 0.44945921892205815,
+     "ids": 26,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 35767,
+       "cantidad": 15,
+       "ids": 15,
+       "participacion": 0.26976453019172464
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 14139,
+       "cantidad": 9,
+       "ids": 9,
+       "participacion": 0.10664021842426802
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 7247,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.054658862926704174
+      },
+      {
+       "nombre": "Reemplazos",
+       "icono": "📌",
+       "total": 2439,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.01839560737936132
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 34747,
+     "cantidad": 7,
+     "participacion": 0.26207141025447633,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 18977,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.14312974220505936
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 10548,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07955591088048512
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 4988,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.03762086494803373
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 234,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.001764892220898134
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 19532,
+     "cantidad": 6,
+     "participacion": 0.14731570452385623,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Red de agua caliente",
+       "icono": "🔥",
+       "total": 10479,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.07903549394355362
+      },
+      {
+       "nombre": "Espacios comunes",
+       "icono": "📌",
+       "total": 7759,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.05852050744422488
+      },
+      {
+       "nombre": "Luminarias",
+       "icono": "⚡",
+       "total": 807,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0060866154797640775
+      },
+      {
+       "nombre": "Generador eléctrico",
+       "icono": "⚡",
+       "total": 487,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0036730876563136378
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 18715,
+     "cantidad": 12,
+     "participacion": 0.14115366629960932,
+     "ids": 12,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6286,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.047410737181904576
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 3743,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.028230733259921863
+      },
+      {
+       "nombre": "Seguridad e incendio",
+       "icono": "🧯",
+       "total": 2392,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.018041120480292036
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 1643,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.012391956918528351
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 1473,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.011109770262320306
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 1261,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009510808079284389
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 861,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006493898299971339
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 718,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005415353053866924
+      },
+      {
+       "nombre": "Accesos",
+       "icono": "📌",
+       "total": 338,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.002549288763519527
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2026-02": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-02",
+    "totalIngresos": 19947024,
+    "totalEgresos": 18049292,
+    "saldoCaja": 15513421,
+    "egresosGC": 15529997,
+    "egresosFondos": 752664,
+    "egresosMedidores": 1766631,
+    "fondosAcumulados": 24781094,
+    "recurrente": 11120885,
+    "extraordinario": 2528951,
+    "variable": 1880161,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 7106444
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2111346,
+     "esPersona": false
+    },
+    "variacionEgresos": -0.011231210601770212,
+    "conciliacionOk": true,
+    "pendientes": 2,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292
+     ],
+     "ingresos": [
+      19265888,
+      19947024
+     ],
+     "saldo": [
+      15229245,
+      15513421
+     ],
+     "fondos": [
+      24267583,
+      24781094
+     ]
+    }
+   },
+   "insights": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-02",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $752.664 (por primera vez en los 1 meses cargados)",
+     "Los egresos superan las entradas del mes ($28.882); el saldo quedó en $868.319 (↓ 45,5%).",
+     752664,
+     "advertencia",
+     "fondos"
+    ],
+    [
+     "extraordinarios-2026-02",
+     "Se detectaron 4 gastos extraordinarios por $2.528.951",
+     "Representan 16% del gasto común de febrero 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     2528951,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-02",
+     "Se detectaron 2 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     872567,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondos-bajos-2026-02",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     150075,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "duplicados-2026-02",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-02",
+     "El fondo de reserva alcanzó un saldo de $20.788.225",
+     "Equivale a 84% de los fondos acumulados ($24.781.094) y varió $865.373 en el mes.",
+     20788225,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-02",
+     "El saldo en caja es $15.513.421, equivalente a 0,9 meses de egresos",
+     "Varió ↑ 1,9% frente a enero 2026.",
+     15513421,
+     "info",
+     null
+    ],
+    [
+     "recurrente-2026-02",
+     "72% del gasto del período es recurrente",
+     "31 movimientos fijos suman $11.120.885; el resto es variable o extraordinario.",
+     11120885,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-02",
+     "Administración es la categoría de mayor gasto (46%)",
+     "Concentra $7.106.444 de los egresos comunitarios de febrero 2026.",
+     7106444,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-02",
+     "Los gastos de uso y consumo representan 25% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $3.884.856 en febrero 2026 sobre un gasto común de $15.529.997.",
+     3884856,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-02",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.111.346 en electricidad (13,6% del gasto común).",
+     2111346,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-02",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$2.111.346 pagados en 1 movimiento(s) durante febrero 2026.",
+     2111346,
+     "info",
+     null
+    ],
+    [
+     "superavit-2026-02",
+     "Los ingresos superaron a los egresos en $1.897.732",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     1897732,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-reparacion-2026-02",
+     "La categoría Gastos de Reparación disminuyó 54% respecto de enero 2026",
+     "$1.092.243 en febrero 2026 vs. $2.367.608 el período anterior.",
+     -1275365,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-mantencion-2026-02",
+     "La categoría Gastos de Mantención aumentó 52% respecto de enero 2026",
+     "$3.446.454 en febrero 2026 vs. $2.268.445 el período anterior.",
+     1178009,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-02",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     865991,
+     "info",
+     "fondos"
+    ],
+    [
+     "pagos-tardios-2026-03-2026-02",
+     "Existen 1 pagos registrados en marzo asociados al período de febrero",
+     "Corresponden a gastos de la cartola de febrero 2026 pagados en marzo 2026; no los confundas con egresos del mes siguiente.",
+     745796,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-02",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $176.245 y llegó a $291.521.",
+     176245,
+     "info",
+     "fondos"
+    ],
+    [
+     "conciliacion-ok-2026-02",
+     "La conciliación cuadra: 23 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-02",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $752.664 (por primera vez en los 1 meses cargados)",
+     752664,
+     "advertencia"
+    ],
+    [
+     "sin-doc-2026-02",
+     "Se detectaron 6 movimientos de empresas sin número de documento",
+     1528720,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-02",
+     "Se detectaron 2 registros pendientes de revisión",
+     872567,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-02",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     150075,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-02",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 19947024,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 15529997,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 752664,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 1766631,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 1897732,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 15513421,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 7106444,
+     "cantidad": 22,
+     "participacion": 0.4575946795095968,
+     "ids": 22,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 4002456,
+       "cantidad": 16,
+       "ids": 16,
+       "participacion": 0.2577241965983638
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 1938317,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.12481116383989
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 745796,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04802293265092067
+      },
+      {
+       "nombre": "Reemplazos",
+       "icono": "📌",
+       "total": 419875,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.02703638642042236
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 3884856,
+     "cantidad": 7,
+     "participacion": 0.2501517546976989,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2111346,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.13595276290137082
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 999835,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.06438088816115033
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 745280,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.04798970663033612
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 28395,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0018283970048416623
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 3446454,
+     "cantidad": 10,
+     "participacion": 0.22192238672035802,
+     "ids": 10,
+     "hijos": [
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 1118124,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07199769581410737
+      },
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 761690,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04904637135474012
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 518294,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.03337373471482319
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 454136,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.029242504039118617
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 215760,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.013893112793260682
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 187050,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.01204443246189938
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 104400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0067224739322229105
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 87000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005602061610185759
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 1092243,
+     "cantidad": 4,
+     "participacion": 0.07033117907234625,
+     "ids": 4,
+     "hijos": [
+      {
+       "nombre": "Sistema de cámaras de seguridad",
+       "icono": "🧯",
+       "total": 936947,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.06033143470665191
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 82825,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.005333227044409603
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 72471,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004666517321284737
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-02",
+    "totalIngresos": 19947024,
+    "totalEgresos": 18049292,
+    "saldoCaja": 15513421,
+    "egresosGC": 15529997,
+    "egresosFondos": 752664,
+    "egresosMedidores": 1766631,
+    "fondosAcumulados": 24781094,
+    "recurrente": 91748,
+    "extraordinario": 20863,
+    "variable": 15512,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 58630
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 17418,
+     "esPersona": false
+    },
+    "variacionEgresos": -0.011231210601770212,
+    "conciliacionOk": true,
+    "pendientes": 2,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292
+     ],
+     "ingresos": [
+      19265888,
+      19947024
+     ],
+     "saldo": [
+      15229245,
+      15513421
+     ],
+     "fondos": [
+      24267583,
+      24781094
+     ]
+    }
+   },
+   "insights": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-02",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $752.664 (por primera vez en los 1 meses cargados)",
+     "Los egresos superan las entradas del mes ($28.882); el saldo quedó en $868.319 (↓ 45,5%).",
+     752664,
+     "advertencia",
+     "fondos"
+    ],
+    [
+     "fondos-bajos-2026-02",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     150075,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "extraordinarios-2026-02",
+     "Se detectaron 4 gastos extraordinarios por $20.863",
+     "Representan 16% del gasto común de febrero 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     20863,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-02",
+     "Se detectaron 2 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     7198,
+     "atencion",
+     "revision"
+    ],
+    [
+     "duplicados-2026-02",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-02",
+     "El fondo de reserva alcanzó un saldo de $20.788.225",
+     "Equivale a 84% de los fondos acumulados ($24.781.094) y varió $865.373 en el mes.",
+     20788225,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-02",
+     "El saldo en caja es $15.513.421, equivalente a 0,9 meses de egresos",
+     "Varió ↑ 1,9% frente a enero 2026.",
+     15513421,
+     "info",
+     null
+    ],
+    [
+     "superavit-2026-02",
+     "Los ingresos superaron a los egresos en $1.897.732",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     1897732,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-02",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     865991,
+     "info",
+     "fondos"
+    ],
+    [
+     "fondo-crece-2026-02",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $176.245 y llegó a $291.521.",
+     176245,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-02",
+     "72% del gasto del período es recurrente",
+     "31 movimientos fijos suman $91.748; el resto es variable o extraordinario.",
+     91748,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-02",
+     "Administración es la categoría de mayor gasto (46%)",
+     "Concentra $58.630 de los egresos comunitarios de febrero 2026.",
+     58630,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-02",
+     "Los gastos de uso y consumo representan 25% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $32.048 en febrero 2026 sobre un gasto común de $128.123.",
+     32048,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-02",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $17.418 en electricidad (13,6% del gasto común).",
+     17418,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-02",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$17.418 pagados en 1 movimiento(s) durante febrero 2026.",
+     17418,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-03-2026-02",
+     "Existen 1 pagos registrados en marzo asociados al período de febrero",
+     "Corresponden a gastos de la cartola de febrero 2026 pagados en marzo 2026; no los confundas con egresos del mes siguiente.",
+     6153,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-02",
+     "La conciliación cuadra: 23 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-02",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $752.664 (por primera vez en los 1 meses cargados)",
+     752664,
+     "advertencia"
+    ],
+    [
+     "sin-doc-2026-02",
+     "Se detectaron 6 movimientos de empresas sin número de documento",
+     1528720,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-02",
+     "Se detectaron 2 registros pendientes de revisión",
+     872567,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-02",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     150075,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-02",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 19947024,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 15529997,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 752664,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 1766631,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 1897732,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 15513421,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 58630,
+     "cantidad": 22,
+     "participacion": 0.45760714313589285,
+     "ids": 22,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 33023,
+       "cantidad": 16,
+       "ids": 16,
+       "participacion": 0.25774451113383234
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 15990,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.12480194812797078
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 6153,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.048024164279637536
+      },
+      {
+       "nombre": "Reemplazos",
+       "icono": "📌",
+       "total": 3464,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.027036519594452205
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 32048,
+     "cantidad": 7,
+     "participacion": 0.25013463624798044,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 17418,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.13594748796078768
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 8248,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.06437563903436541
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 6148,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.04798513928022291
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 234,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0018263699726044503
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 28434,
+     "cantidad": 10,
+     "participacion": 0.2219273666710895,
+     "ids": 10,
+     "hijos": [
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 9225,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07200112391998315
+      },
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6284,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04904661926430071
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 4276,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.033374179499387306
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 3747,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.02924533456131998
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 1780,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.013892899791606503
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 1543,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.012043114819353279
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 861,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006720104899198427
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 718,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005603989915940151
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 9011,
+     "cantidad": 4,
+     "participacion": 0.07033085394503719,
+     "ids": 4,
+     "hijos": [
+      {
+       "nombre": "Sistema de cámaras de seguridad",
+       "icono": "🧯",
+       "total": 7730,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.060332649095010266
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 683,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.0053308149200377766
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 598,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004667389929989151
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2026-03": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-03",
+    "totalIngresos": 16976616,
+    "totalEgresos": 16870646,
+    "saldoCaja": 17566628,
+    "egresosGC": 14777671,
+    "egresosFondos": 473132,
+    "egresosMedidores": 1619843,
+    "fondosAcumulados": 25368970,
+    "recurrente": 9600353,
+    "extraordinario": 4538201,
+    "variable": 639117,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 7341358
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2053742,
+     "esPersona": false
+    },
+    "variacionEgresos": -0.06530150877940254,
+    "conciliacionOk": true,
+    "pendientes": 6,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970
+     ]
+    }
+   },
+   "insights": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-03",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $473.132 (consecutivo al mes anterior)",
+     "Los egresos superan las entradas del mes ($78.300); el saldo quedó en $418.505 (↓ 51,8%).",
+     473132,
+     "advertencia",
+     "fondos"
+    ],
+    [
+     "desv-telefonia-2026-03",
+     "El gasto de telefonía aumentó 100% frente al promedio de los últimos 2 meses",
+     "$56.835 en marzo 2026 vs. un promedio de $28.364.",
+     28471.5,
+     "advertencia",
+     null
+    ],
+    [
+     "extraordinarios-2026-03",
+     "Se detectaron 10 gastos extraordinarios por $4.538.201",
+     "Representan 31% del gasto común de marzo 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     4538201,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-03",
+     "Se detectaron 6 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     2750664,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondos-bajos-2026-03",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     150075,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "fondo-reserva-2026-03",
+     "El fondo de reserva alcanzó un saldo de $21.459.609",
+     "Equivale a 85% de los fondos acumulados ($25.368.970) y varió $671.384 en el mes.",
+     21459609,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-03",
+     "El saldo en caja es $17.566.628, equivalente a 1,0 meses de egresos",
+     "Varió ↑ 13,2% frente a febrero 2026.",
+     17566628,
+     "info",
+     null
+    ],
+    [
+     "recurrente-2026-03",
+     "65% del gasto del período es recurrente",
+     "28 movimientos fijos suman $9.600.353; el resto es variable o extraordinario.",
+     9600353,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-03",
+     "Administración es la categoría de mayor gasto (50%)",
+     "Concentra $7.341.358 de los egresos comunitarios de marzo 2026.",
+     7341358,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-03",
+     "Los gastos de uso y consumo representan 24% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $3.601.572 en marzo 2026 sobre un gasto común de $14.777.671.",
+     3601572,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-03",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.053.742 en electricidad (13,9% del gasto común).",
+     2053742,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-03",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$2.053.742 pagados en 1 movimiento(s) durante marzo 2026.",
+     2053742,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-reparacion-2026-03",
+     "La categoría Gastos de Reparación disminuyó 65% frente al promedio de los últimos 2 meses",
+     "$611.584 en marzo 2026 vs. un promedio de $1.729.926.",
+     -1118341.5,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-04-2026-03",
+     "Existen 6 pagos registrados en abril asociados al período de marzo",
+     "Corresponden a gastos de la cartola de marzo 2026 pagados en abril 2026; no los confundas con egresos del mes siguiente.",
+     567151,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-03",
+     "2 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de Reserva Interés depósito a plazo.",
+     488388,
+     "info",
+     "fondos"
+    ],
+    [
+     "cat-var-gastos-de-reparacion-2026-03",
+     "La categoría Gastos de Reparación disminuyó 44% respecto de febrero 2026",
+     "$611.584 en marzo 2026 vs. $1.092.243 el período anterior.",
+     -480659,
+     "info",
+     null
+    ],
+    [
+     "desv-gas-2026-03",
+     "El gasto de gas disminuyó 20% frente al promedio de los últimos 2 meses",
+     "$909.423 en marzo 2026 vs. un promedio de $1.139.168.",
+     -229745,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-03",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $148.134 y llegó a $439.655.",
+     148134,
+     "info",
+     "fondos"
+    ],
+    [
+     "superavit-2026-03",
+     "Los ingresos superaron a los egresos en $105.970",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     105970,
+     "info",
+     null
+    ],
+    [
+     "agua-precio-2026-03",
+     "El precio por m³ de agua caliente bajó 15%",
+     "Costo de $4.303 por m³; el gas aporta $1.364.136 y el agua $255.707 del costo total.",
+     4302.76,
+     "info",
+     "medidores"
+    ],
+    [
+     "conciliacion-ok-2026-03",
+     "La conciliación cuadra: 19 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-03",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $473.132 (consecutivo al mes anterior)",
+     473132,
+     "advertencia"
+    ],
+    [
+     "desv-telefonia-2026-03",
+     "El gasto de telefonía aumentó 100% frente al promedio de los últimos 2 meses",
+     28471.5,
+     "advertencia"
+    ],
+    [
+     "pendientes-2026-03",
+     "Se detectaron 6 registros pendientes de revisión",
+     2750664,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-03",
+     "Se detectaron 6 movimientos de empresas sin número de documento",
+     931048,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-03",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     150075,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 16976616,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 14777671,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 473132,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 1619843,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 105970,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 17566628,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 7341358,
+     "cantidad": 27,
+     "participacion": 0.496787213627912,
+     "ids": 27,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 3836226,
+       "cantidad": 15,
+       "ids": 15,
+       "participacion": 0.25959611632983304
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 2746852,
+       "cantidad": 11,
+       "ids": 11,
+       "participacion": 0.18587854608483298
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 758280,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.05131255121324598
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 3601572,
+     "cantidad": 7,
+     "participacion": 0.2437171594901524,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2053742,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.1389760267365541
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 909423,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.061540346919348794
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 581572,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.03935478060108389
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 56835,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.003846005233165632
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 3223157,
+     "cantidad": 12,
+     "participacion": 0.21810994438839518,
+     "ids": 12,
+     "hijos": [
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 1118124,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07566307302415921
+      },
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 763527,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.05166761392915027
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 454618,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.030763846346288263
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 321900,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.021782864160394422
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 220110,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.014894769277242672
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 216630,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.014659278853887058
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 87000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005887260583890384
+      },
+      {
+       "nombre": "Accesos",
+       "icono": "📌",
+       "total": 41248,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.00279123821338288
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 611584,
+     "cantidad": 3,
+     "participacion": 0.041385682493540424,
+     "ids": 3,
+     "hijos": [
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 466642,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.031577506360779044
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 144942,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.00980817613276138
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-03",
+    "totalIngresos": 16976616,
+    "totalEgresos": 16870646,
+    "saldoCaja": 17566628,
+    "egresosGC": 14777671,
+    "egresosFondos": 473132,
+    "egresosMedidores": 1619843,
+    "fondosAcumulados": 25368970,
+    "recurrente": 79206,
+    "extraordinario": 37440,
+    "variable": 5272,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 60568
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 16943,
+     "esPersona": false
+    },
+    "variacionEgresos": -0.06530150877940254,
+    "conciliacionOk": true,
+    "pendientes": 6,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970
+     ]
+    }
+   },
+   "insights": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-03",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $473.132 (consecutivo al mes anterior)",
+     "Los egresos superan las entradas del mes ($78.300); el saldo quedó en $418.505 (↓ 51,8%).",
+     473132,
+     "advertencia",
+     "fondos"
+    ],
+    [
+     "desv-telefonia-2026-03",
+     "El gasto de telefonía aumentó 100% frente al promedio de los últimos 2 meses",
+     "$469 en marzo 2026 vs. un promedio de $234.",
+     235,
+     "advertencia",
+     null
+    ],
+    [
+     "fondos-bajos-2026-03",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     150075,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "extraordinarios-2026-03",
+     "Se detectaron 10 gastos extraordinarios por $37.440",
+     "Representan 31% del gasto común de marzo 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     37440,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-03",
+     "Se detectaron 6 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     22692,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondo-reserva-2026-03",
+     "El fondo de reserva alcanzó un saldo de $21.459.609",
+     "Equivale a 85% de los fondos acumulados ($25.368.970) y varió $671.384 en el mes.",
+     21459609,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-03",
+     "El saldo en caja es $17.566.628, equivalente a 1,0 meses de egresos",
+     "Varió ↑ 13,2% frente a febrero 2026.",
+     17566628,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-03",
+     "2 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de Reserva Interés depósito a plazo.",
+     488388,
+     "info",
+     "fondos"
+    ],
+    [
+     "fondo-crece-2026-03",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $148.134 y llegó a $439.655.",
+     148134,
+     "info",
+     "fondos"
+    ],
+    [
+     "superavit-2026-03",
+     "Los ingresos superaron a los egresos en $105.970",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     105970,
+     "info",
+     null
+    ],
+    [
+     "recurrente-2026-03",
+     "65% del gasto del período es recurrente",
+     "28 movimientos fijos suman $79.206; el resto es variable o extraordinario.",
+     79206,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-03",
+     "Administración es la categoría de mayor gasto (50%)",
+     "Concentra $60.568 de los egresos comunitarios de marzo 2026.",
+     60568,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-03",
+     "Los gastos de uso y consumo representan 24% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $29.713 en marzo 2026 sobre un gasto común de $121.918.",
+     29713,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-03",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $16.943 en electricidad (13,9% del gasto común).",
+     16943,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-03",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$16.943 pagados en 1 movimiento(s) durante marzo 2026.",
+     16943,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-04-2026-03",
+     "Existen 6 pagos registrados en abril asociados al período de marzo",
+     "Corresponden a gastos de la cartola de marzo 2026 pagados en abril 2026; no los confundas con egresos del mes siguiente.",
+     4677,
+     "info",
+     null
+    ],
+    [
+     "agua-precio-2026-03",
+     "El precio por m³ de agua caliente bajó 15%",
+     "Costo de $4.303 por m³; el gas aporta $1.364.136 y el agua $255.707 del costo total.",
+     4302.76,
+     "info",
+     "medidores"
+    ],
+    [
+     "desv-gas-2026-03",
+     "El gasto de gas disminuyó 20% frente al promedio de los últimos 2 meses",
+     "$7.503 en marzo 2026 vs. un promedio de $9.398.",
+     -1895,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-03",
+     "La conciliación cuadra: 19 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-03",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $473.132 (consecutivo al mes anterior)",
+     473132,
+     "advertencia"
+    ],
+    [
+     "desv-telefonia-2026-03",
+     "El gasto de telefonía aumentó 100% frente al promedio de los últimos 2 meses",
+     28471.5,
+     "advertencia"
+    ],
+    [
+     "pendientes-2026-03",
+     "Se detectaron 6 registros pendientes de revisión",
+     2750664,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-03",
+     "Se detectaron 6 movimientos de empresas sin número de documento",
+     931048,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-03",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     150075,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 16976616,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 14777671,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 473132,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 1619843,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 105970,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 17566628,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 60568,
+     "cantidad": 27,
+     "participacion": 0.4967929263931495,
+     "ids": 27,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 31652,
+       "cantidad": 15,
+       "ids": 15,
+       "participacion": 0.25961711970340723
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 22660,
+       "cantidad": 11,
+       "ids": 11,
+       "participacion": 0.1858626289801342
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 6256,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.051313177709608096
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 29713,
+     "cantidad": 7,
+     "participacion": 0.24371298741777261,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 16943,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.1389704555520924
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 7503,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.06154136386751751
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 4798,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.03935432011679982
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 469,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0038468478813628833
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 26592,
+     "cantidad": 12,
+     "participacion": 0.2181138142029889,
+     "ids": 12,
+     "hijos": [
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 9225,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07566561131252153
+      },
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6299,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.05166587378401877
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 3751,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.030766580816614444
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 2656,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.021785134270575306
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 1816,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.01489525746813432
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 1787,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.014657392673764334
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 718,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005889204219229318
+      },
+      {
+       "nombre": "Accesos",
+       "icono": "📌",
+       "total": 340,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.002788759658130875
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 5045,
+     "cantidad": 3,
+     "participacion": 0.04138027198608901,
+     "ids": 3,
+     "hijos": [
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 3850,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.03157860201118785
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 1195,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009801669974901162
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2026-04": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-04",
+    "totalIngresos": 17458363,
+    "totalEgresos": 17768418,
+    "saldoCaja": 17395379,
+    "egresosGC": 15588214,
+    "egresosFondos": 0,
+    "egresosMedidores": 2180204,
+    "fondosAcumulados": 26504850,
+    "recurrente": 13031290,
+    "extraordinario": 1654608,
+    "variable": 902316,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 7782784
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2283904,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.05321503397083906,
+    "conciliacionOk": true,
+    "pendientes": 4,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850
+     ]
+    }
+   },
+   "insights": [
+    [
+     "deficit-2026-04",
+     "Los egresos superaron a los ingresos en $310.055",
+     "Ingresos $17.458.363 vs. egresos $17.768.418 en abril 2026; el saldo en caja absorbió la diferencia.",
+     310055,
+     "advertencia",
+     null
+    ],
+    [
+     "pendientes-2026-04",
+     "Se detectaron 4 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     1714405,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondos-bajos-2026-04",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     152112,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "fondo-reserva-2026-04",
+     "El fondo de reserva alcanzó un saldo de $22.192.545",
+     "Equivale a 84% de los fondos acumulados ($26.504.850) y varió $732.936 en el mes.",
+     22192545,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-04",
+     "El saldo en caja es $17.395.379, equivalente a 1,0 meses de egresos",
+     "Varió ↓ 1,0% frente a marzo 2026.",
+     17395379,
+     "info",
+     null
+    ],
+    [
+     "recurrente-2026-04",
+     "84% del gasto del período es recurrente",
+     "37 movimientos fijos suman $13.031.290; el resto es variable o extraordinario.",
+     13031290,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-04",
+     "Administración es la categoría de mayor gasto (50%)",
+     "Concentra $7.782.784 de los egresos comunitarios de abril 2026.",
+     7782784,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-04",
+     "Los gastos de uso y consumo representan 25% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $3.952.306 en abril 2026 sobre un gasto común de $15.588.214.",
+     3952306,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-04",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.283.904 en electricidad (14,7% del gasto común).",
+     2283904,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-04",
+     "El proveedor Enel S.A concentra 15% del gasto total",
+     "$2.283.904 pagados en 1 movimiento(s) durante abril 2026.",
+     2283904,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-05-2026-04",
+     "Existen 8 pagos registrados en mayo asociados al período de abril",
+     "Corresponden a gastos de la cartola de abril 2026 pagados en mayo 2026; no los confundas con egresos del mes siguiente.",
+     2126996,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-04",
+     "Se detectaron 5 gastos extraordinarios por $1.654.608",
+     "Representan 11% del gasto común de abril 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     1654608,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-reparacion-2026-04",
+     "La categoría Gastos de Reparación disminuyó 53% frente al promedio de los últimos 3 meses",
+     "$639.042 en abril 2026 vs. un promedio de $1.357.145.",
+     -718103,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-04",
+     "1 fondo(s) sin movimientos en el período",
+     "Fondo de Reserva Interés depósito a plazo.",
+     338313,
+     "info",
+     "fondos"
+    ],
+    [
+     "desv-agua-potable-2026-04",
+     "El gasto de agua potable disminuyó 42% frente al promedio de los últimos 3 meses",
+     "$371.442 en abril 2026 vs. un promedio de $643.831.",
+     -272389,
+     "info",
+     null
+    ],
+    [
+     "desv-gas-2026-04",
+     "El gasto de gas aumentó 19% frente al promedio de los últimos 3 meses",
+     "$1.268.486 en abril 2026 vs. un promedio de $1.062.586.",
+     205899.66666666674,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-04",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $172.493 y llegó a $612.148.",
+     172493,
+     "info",
+     "fondos"
+    ],
+    [
+     "desv-telefonia-2026-04",
+     "El gasto de telefonía disminuyó 25% frente al promedio de los últimos 3 meses",
+     "$28.474 en abril 2026 vs. un promedio de $37.854.",
+     -9380,
+     "info",
+     null
+    ],
+    [
+     "agua-precio-2026-04",
+     "El precio por m³ de agua caliente subió 28%",
+     "Costo de $5.496 por m³; el gas aporta $1.902.730 y el agua $277.474 del costo total.",
+     5495.55,
+     "info",
+     "medidores"
+    ],
+    [
+     "conciliacion-ok-2026-04",
+     "La conciliación cuadra: 22 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "fecha-anterior-2026-04",
+     "Hay 1 egreso(s) con fecha anterior al período de la cartola",
+     1118124,
+     "advertencia"
+    ],
+    [
+     "deficit-2026-04",
+     "Los egresos superaron a los ingresos en $310.055",
+     310055,
+     "advertencia"
+    ],
+    [
+     "pendientes-2026-04",
+     "Se detectaron 4 registros pendientes de revisión",
+     1714405,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-04",
+     "Se detectaron 7 movimientos de empresas sin número de documento",
+     1032228,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-04",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     152112,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 17458363,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 15588214,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 2180204,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": -310055,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 17395379,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 7782784,
+     "cantidad": 28,
+     "participacion": 0.49927361787565916,
+     "ids": 28,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 4409412,
+       "cantidad": 16,
+       "ids": 16,
+       "participacion": 0.2828683260314491
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 2538651,
+       "cantidad": 11,
+       "ids": 11,
+       "participacion": 0.16285707907268915
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 834721,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.053548212771520845
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 3952306,
+     "cantidad": 7,
+     "participacion": 0.25354450484192737,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2283904,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.1465147963711558
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 1268486,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.08137468474579576
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 371442,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.023828387267457323
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 28474,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0018266364575184816
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 3100199,
+     "cantidad": 10,
+     "participacion": 0.1988809622449371,
+     "ids": 10,
+     "hijos": [
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 1118124,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07172880741821995
+      },
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 764339,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04903313490564089
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 497619,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.03192277190959785
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 347687,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.022304479525364483
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 147900,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009487937489182533
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 104400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006697367639422964
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 87000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005581139699519137
+      },
+      {
+       "nombre": "Iluminación",
+       "icono": "💡",
+       "total": 33130,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.002125323657989299
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 639042,
+     "cantidad": 5,
+     "participacion": 0.04099520317080584,
+     "ids": 5,
+     "hijos": [
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 248472,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.015939734981826655
+      },
+      {
+       "nombre": "Bombas y calderas",
+       "icono": "🔥",
+       "total": 191400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.012278507338942101
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 142491,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009140944562346912
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 30796,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0019755951515677164
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 25883,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0016604211361224577
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos Extraordinarios",
+     "icono": "⚠️",
+     "total": 113883,
+     "cantidad": 1,
+     "participacion": 0.00730571186667055,
+     "ids": 1,
+     "hijos": [
+      {
+       "nombre": "Sistema de cámaras de seguridad",
+       "icono": "🧯",
+       "total": 113883,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.00730571186667055
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-04",
+    "totalIngresos": 17458363,
+    "totalEgresos": 17768418,
+    "saldoCaja": 17395379,
+    "egresosGC": 15588214,
+    "egresosFondos": 0,
+    "egresosMedidores": 2180204,
+    "fondosAcumulados": 26504850,
+    "recurrente": 107508,
+    "extraordinario": 13651,
+    "variable": 7443,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 64208
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 18842,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.05321503397083906,
+    "conciliacionOk": true,
+    "pendientes": 4,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850
+     ]
+    }
+   },
+   "insights": [
+    [
+     "deficit-2026-04",
+     "Los egresos superaron a los ingresos en $310.055",
+     "Ingresos $17.458.363 vs. egresos $17.768.418 en abril 2026; el saldo en caja absorbió la diferencia.",
+     310055,
+     "advertencia",
+     null
+    ],
+    [
+     "fondos-bajos-2026-04",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     152112,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "pendientes-2026-04",
+     "Se detectaron 4 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     14144,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondo-reserva-2026-04",
+     "El fondo de reserva alcanzó un saldo de $22.192.545",
+     "Equivale a 84% de los fondos acumulados ($26.504.850) y varió $732.936 en el mes.",
+     22192545,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-04",
+     "El saldo en caja es $17.395.379, equivalente a 1,0 meses de egresos",
+     "Varió ↓ 1,0% frente a marzo 2026.",
+     17395379,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-04",
+     "1 fondo(s) sin movimientos en el período",
+     "Fondo de Reserva Interés depósito a plazo.",
+     338313,
+     "info",
+     "fondos"
+    ],
+    [
+     "fondo-crece-2026-04",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $172.493 y llegó a $612.148.",
+     172493,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-04",
+     "84% del gasto del período es recurrente",
+     "37 movimientos fijos suman $107.508; el resto es variable o extraordinario.",
+     107508,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-04",
+     "Administración es la categoría de mayor gasto (50%)",
+     "Concentra $64.208 de los egresos comunitarios de abril 2026.",
+     64208,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-04",
+     "Los gastos de uso y consumo representan 25% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $32.606 en abril 2026 sobre un gasto común de $128.602.",
+     32606,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-04",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $18.842 en electricidad (14,7% del gasto común).",
+     18842,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-04",
+     "El proveedor Enel S.A concentra 15% del gasto total",
+     "$18.842 pagados en 1 movimiento(s) durante abril 2026.",
+     18842,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-05-2026-04",
+     "Existen 8 pagos registrados en mayo asociados al período de abril",
+     "Corresponden a gastos de la cartola de abril 2026 pagados en mayo 2026; no los confundas con egresos del mes siguiente.",
+     17546,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-04",
+     "Se detectaron 5 gastos extraordinarios por $13.651",
+     "Representan 11% del gasto común de abril 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     13651,
+     "info",
+     null
+    ],
+    [
+     "agua-precio-2026-04",
+     "El precio por m³ de agua caliente subió 28%",
+     "Costo de $5.496 por m³; el gas aporta $1.902.730 y el agua $277.474 del costo total.",
+     5495.55,
+     "info",
+     "medidores"
+    ],
+    [
+     "desv-agua-potable-2026-04",
+     "El gasto de agua potable disminuyó 42% frente al promedio de los últimos 3 meses",
+     "$3.064 en abril 2026 vs. un promedio de $5.311.",
+     -2247.333333333333,
+     "info",
+     null
+    ],
+    [
+     "desv-gas-2026-04",
+     "El gasto de gas aumentó 19% frente al promedio de los últimos 3 meses",
+     "$10.465 en abril 2026 vs. un promedio de $8.766.",
+     1698.666666666666,
+     "info",
+     null
+    ],
+    [
+     "desv-telefonia-2026-04",
+     "El gasto de telefonía disminuyó 25% frente al promedio de los últimos 3 meses",
+     "$235 en abril 2026 vs. un promedio de $312.",
+     -77.33333333333331,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-04",
+     "La conciliación cuadra: 22 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "fecha-anterior-2026-04",
+     "Hay 1 egreso(s) con fecha anterior al período de la cartola",
+     1118124,
+     "advertencia"
+    ],
+    [
+     "deficit-2026-04",
+     "Los egresos superaron a los ingresos en $310.055",
+     310055,
+     "advertencia"
+    ],
+    [
+     "pendientes-2026-04",
+     "Se detectaron 4 registros pendientes de revisión",
+     1714405,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-04",
+     "Se detectaron 7 movimientos de empresas sin número de documento",
+     1032228,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-04",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     152112,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 17458363,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 15588214,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 2180204,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": -310055,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 17395379,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 64208,
+     "cantidad": 28,
+     "participacion": 0.49927683861837296,
+     "ids": 28,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 36379,
+       "cantidad": 16,
+       "ids": 16,
+       "participacion": 0.282880515077526
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 20943,
+       "cantidad": 11,
+       "ids": 11,
+       "participacion": 0.16285127758510753
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 6886,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.05354504595573941
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 32606,
+     "cantidad": 7,
+     "participacion": 0.2535419355842055,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 18842,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.1465140511034043
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 10465,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.08137509525512822
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 3064,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.02382544594951867
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 235,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0018273432761543365
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 25577,
+     "cantidad": 10,
+     "participacion": 0.1988849318051041,
+     "ids": 10,
+     "hijos": [
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 9225,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.07173294350010109
+      },
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6306,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04903500723161382
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 4105,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.031920187866440644
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 2868,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.022301363897917606
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 1221,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009494409107167852
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 861,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006695074726676102
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 718,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0055831169033141006
+      },
+      {
+       "nombre": "Iluminación",
+       "icono": "💡",
+       "total": 273,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0021228285718729104
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 5271,
+     "cantidad": 5,
+     "participacion": 0.040986920887700035,
+     "ids": 5,
+     "hijos": [
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 2050,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.015940654111133577
+      },
+      {
+       "nombre": "Bombas y calderas",
+       "icono": "🔥",
+       "total": 1579,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.012278191629990203
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 1175,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009136716380771683
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 254,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0019750859240136235
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 213,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.001656272841790952
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos Extraordinarios",
+     "icono": "⚠️",
+     "total": 940,
+     "cantidad": 1,
+     "participacion": 0.007309373104617346,
+     "ids": 1,
+     "hijos": [
+      {
+       "nombre": "Sistema de cámaras de seguridad",
+       "icono": "🧯",
+       "total": 940,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.007309373104617346
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2026-05": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-05",
+    "totalIngresos": 19103555,
+    "totalEgresos": 18818794,
+    "saldoCaja": 12971871,
+    "egresosGC": 16535390,
+    "egresosFondos": 0,
+    "egresosMedidores": 2283404,
+    "fondosAcumulados": 27657655,
+    "recurrente": 12738257,
+    "extraordinario": 2353073,
+    "variable": 1444060,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 9775546
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2221077,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.05911477318914942,
+    "conciliacionOk": true,
+    "pendientes": 5,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655
+     ]
+    }
+   },
+   "insights": [
+    [
+     "desv-administracion-2026-05",
+     "La categoría Administración aumentó 33% frente al promedio de los últimos 4 meses",
+     "$9.775.546 en mayo 2026 vs. un promedio de $7.363.458.",
+     2412087.75,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-05",
+     "Se detectaron 5 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     1969165,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondos-bajos-2026-05",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "duplicados-2026-05",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-05",
+     "El fondo de reserva alcanzó un saldo de $22.942.717",
+     "Equivale a 83% de los fondos acumulados ($27.657.655) y varió $750.172 en el mes.",
+     22942717,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-05",
+     "El saldo en caja es $12.971.871, equivalente a 0,7 meses de egresos",
+     "Varió ↓ 25,4% frente a abril 2026.",
+     12971871,
+     "info",
+     null
+    ],
+    [
+     "recurrente-2026-05",
+     "77% del gasto del período es recurrente",
+     "32 movimientos fijos suman $12.738.257; el resto es variable o extraordinario.",
+     12738257,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-05",
+     "Administración es la categoría de mayor gasto (59%)",
+     "Concentra $9.775.546 de los egresos comunitarios de mayo 2026.",
+     9775546,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-06-2026-05",
+     "Existen 14 pagos registrados en junio asociados al período de mayo",
+     "Corresponden a gastos de la cartola de mayo 2026 pagados en junio 2026; no los confundas con egresos del mes siguiente.",
+     5326987,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-05",
+     "Los gastos de uso y consumo representan 24% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $3.964.327 en mayo 2026 sobre un gasto común de $16.535.390.",
+     3964327,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-05",
+     "Se detectaron 6 gastos extraordinarios por $2.353.073",
+     "Representan 14% del gasto común de mayo 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     2353073,
+     "info",
+     null
+    ],
+    [
+     "agua-consumo-2026-05",
+     "El consumo de agua caliente subió 16% frente al mes anterior",
+     "461,0 m³ en la comunidad en mayo 2026.",
+     2283404,
+     "info",
+     "medidores"
+    ],
+    [
+     "mayor-gasto-2026-05",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.221.077 en electricidad (13,4% del gasto común).",
+     2221077,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-05",
+     "El proveedor Enel S.A concentra 13% del gasto total",
+     "$2.221.077 pagados en 1 movimiento(s) durante mayo 2026.",
+     2221077,
+     "info",
+     null
+    ],
+    [
+     "cat-var-administracion-2026-05",
+     "La categoría Administración aumentó 26% respecto de abril 2026",
+     "$9.775.546 en mayo 2026 vs. $7.782.784 el período anterior.",
+     1992762,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-mantencion-2026-05",
+     "La categoría Gastos de Mantención disminuyó 41% respecto de abril 2026",
+     "$1.834.775 en mayo 2026 vs. $3.100.199 el período anterior.",
+     -1265424,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-mantencion-2026-05",
+     "La categoría Gastos de Mantención disminuyó 39% frente al promedio de los últimos 4 meses",
+     "$1.834.775 en mayo 2026 vs. un promedio de $3.009.564.",
+     -1174788.75,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-05",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     1142287,
+     "info",
+     "fondos"
+    ],
+    [
+     "cat-var-gastos-de-reparacion-2026-05",
+     "La categoría Gastos de Reparación aumentó 50% respecto de abril 2026",
+     "$960.742 en mayo 2026 vs. $639.042 el período anterior.",
+     321700,
+     "info",
+     null
+    ],
+    [
+     "superavit-2026-05",
+     "Los ingresos superaron a los egresos en $284.761",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     284761,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-reparacion-2026-05",
+     "La categoría Gastos de Reparación disminuyó 18% frente al promedio de los últimos 4 meses",
+     "$960.742 en mayo 2026 vs. un promedio de $1.177.619.",
+     -216877.25,
+     "info",
+     null
+    ],
+    [
+     "desv-gas-2026-05",
+     "El gasto de gas aumentó 19% frente al promedio de los últimos 4 meses",
+     "$1.328.827 en mayo 2026 vs. un promedio de $1.114.061.",
+     214765.75,
+     "info",
+     null
+    ],
+    [
+     "desv-agua-potable-2026-05",
+     "El gasto de agua potable disminuyó 28% frente al promedio de los últimos 4 meses",
+     "$414.423 en mayo 2026 vs. un promedio de $575.734.",
+     -161310.75,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-05",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $142.377 y llegó a $754.525.",
+     142377,
+     "info",
+     "fondos"
+    ],
+    [
+     "desv-telefonia-2026-05",
+     "El gasto de telefonía disminuyó 100% frente al promedio de los últimos 4 meses",
+     "$0 en mayo 2026 vs. un promedio de $35.509.",
+     -35509,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-05",
+     "La conciliación cuadra: 17 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "desv-administracion-2026-05",
+     "La categoría Administración aumentó 33% frente al promedio de los últimos 4 meses",
+     2412087.75,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-05",
+     "Se detectaron 5 registros pendientes de revisión",
+     1969165,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-05",
+     "Se detectaron 8 movimientos de empresas sin número de documento",
+     1528803,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-05",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-05",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 19103555,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 16535390,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 2283404,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 284761,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 12971871,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 9775546,
+     "cantidad": 32,
+     "participacion": 0.5911893218121859,
+     "ids": 32,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 5248912,
+       "cantidad": 19,
+       "ids": 19,
+       "participacion": 0.317435028747432
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 4526634,
+       "cantidad": 13,
+       "ids": 13,
+       "participacion": 0.27375429306475385
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 3964327,
+     "cantidad": 6,
+     "participacion": 0.23974801924841205,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2221077,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.1343226255927438
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 1328827,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.08036260408735446
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 414423,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.02506278956831378
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 1834775,
+     "cantidad": 6,
+     "participacion": 0.11096049140661333,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 777011,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04699078763790875
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 717920,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.043417179758082514
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 148444,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.008977351002909518
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 104400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006313730731479572
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 87000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0052614422762329765
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 960742,
+     "cantidad": 5,
+     "participacion": 0.05810216753278876,
+     "ids": 5,
+     "hijos": [
+      {
+       "nombre": "Bombas y calderas",
+       "icono": "🔥",
+       "total": 888270,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.05371932564033869
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 72472,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.004382841892450072
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-05",
+    "totalIngresos": 19103555,
+    "totalEgresos": 18818794,
+    "saldoCaja": 12971871,
+    "egresosGC": 16535390,
+    "egresosFondos": 0,
+    "egresosMedidores": 2283404,
+    "fondosAcumulados": 27657655,
+    "recurrente": 105094,
+    "extraordinario": 19411,
+    "variable": 11913,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 80649
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 18324,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.05911477318914942,
+    "conciliacionOk": true,
+    "pendientes": 5,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655
+     ]
+    }
+   },
+   "insights": [
+    [
+     "fondos-bajos-2026-05",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "pendientes-2026-05",
+     "Se detectaron 5 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     16245,
+     "atencion",
+     "revision"
+    ],
+    [
+     "duplicados-2026-05",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-05",
+     "El fondo de reserva alcanzó un saldo de $22.942.717",
+     "Equivale a 83% de los fondos acumulados ($27.657.655) y varió $750.172 en el mes.",
+     22942717,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-05",
+     "El saldo en caja es $12.971.871, equivalente a 0,7 meses de egresos",
+     "Varió ↓ 25,4% frente a abril 2026.",
+     12971871,
+     "info",
+     null
+    ],
+    [
+     "agua-consumo-2026-05",
+     "El consumo de agua caliente subió 16% frente al mes anterior",
+     "461,0 m³ en la comunidad en mayo 2026.",
+     2283404,
+     "info",
+     "medidores"
+    ],
+    [
+     "fondos-sin-mov-2026-05",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     1142287,
+     "info",
+     "fondos"
+    ],
+    [
+     "superavit-2026-05",
+     "Los ingresos superaron a los egresos en $284.761",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     284761,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-05",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $142.377 y llegó a $754.525.",
+     142377,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-05",
+     "77% del gasto del período es recurrente",
+     "32 movimientos fijos suman $105.094; el resto es variable o extraordinario.",
+     105094,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-05",
+     "Administración es la categoría de mayor gasto (59%)",
+     "Concentra $80.649 de los egresos comunitarios de mayo 2026.",
+     80649,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-06-2026-05",
+     "Existen 14 pagos registrados en junio asociados al período de mayo",
+     "Corresponden a gastos de la cartola de mayo 2026 pagados en junio 2026; no los confundas con egresos del mes siguiente.",
+     43948,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-05",
+     "Los gastos de uso y consumo representan 24% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $32.707 en mayo 2026 sobre un gasto común de $136.418.",
+     32707,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-05",
+     "Se detectaron 6 gastos extraordinarios por $19.411",
+     "Representan 14% del gasto común de mayo 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     19411,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-05",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $18.324 en electricidad (13,4% del gasto común).",
+     18324,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-05",
+     "El proveedor Enel S.A concentra 13% del gasto total",
+     "$18.324 pagados en 1 movimiento(s) durante mayo 2026.",
+     18324,
+     "info",
+     null
+    ],
+    [
+     "desv-gas-2026-05",
+     "El gasto de gas aumentó 19% frente al promedio de los últimos 4 meses",
+     "$10.963 en mayo 2026 vs. un promedio de $9.191.",
+     1772,
+     "info",
+     null
+    ],
+    [
+     "desv-agua-potable-2026-05",
+     "El gasto de agua potable disminuyó 28% frente al promedio de los últimos 4 meses",
+     "$3.420 en mayo 2026 vs. un promedio de $4.750.",
+     -1329.5,
+     "info",
+     null
+    ],
+    [
+     "desv-telefonia-2026-05",
+     "El gasto de telefonía disminuyó 100% frente al promedio de los últimos 4 meses",
+     "$0 en mayo 2026 vs. un promedio de $293.",
+     -293,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-05",
+     "La conciliación cuadra: 17 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "desv-administracion-2026-05",
+     "La categoría Administración aumentó 33% frente al promedio de los últimos 4 meses",
+     2412087.75,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-05",
+     "Se detectaron 5 registros pendientes de revisión",
+     1969165,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-05",
+     "Se detectaron 8 movimientos de empresas sin número de documento",
+     1528803,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-05",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-05",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 19103555,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 16535390,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 2283404,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 284761,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 12971871,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 80649,
+     "cantidad": 32,
+     "participacion": 0.5911903121288979,
+     "ids": 32,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 43304,
+       "cantidad": 19,
+       "ids": 19,
+       "participacion": 0.31743611546863315
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 37345,
+       "cantidad": 13,
+       "ids": 13,
+       "participacion": 0.2737541966602648
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 32707,
+     "cantidad": 6,
+     "participacion": 0.23975575070738467,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 18324,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.13432245011655353
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 10963,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.08036329516632702
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 3420,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.025070005424504098
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 15137,
+     "cantidad": 6,
+     "participacion": 0.11096043044173057,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6410,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04698793414358809
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 5923,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.04341802401442625
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 1225,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.008979753404975883
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 861,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006311483821783049
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 718,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005263235056957293
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 7925,
+     "cantidad": 5,
+     "participacion": 0.058093506721986835,
+     "ids": 5,
+     "hijos": [
+      {
+       "nombre": "Bombas y calderas",
+       "icono": "🔥",
+       "total": 7327,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.05370992097817004
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 598,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.004383585743816799
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2026-06": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-06",
+    "totalIngresos": 21352699,
+    "totalEgresos": 20380608,
+    "saldoCaja": 13616327,
+    "egresosGC": 17220520,
+    "egresosFondos": 0,
+    "egresosMedidores": 3160088,
+    "fondosAcumulados": 29101237,
+    "recurrente": 12328748,
+    "extraordinario": 2153879,
+    "variable": 2737893,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 9406535
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2460015,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.08299224700583895,
+    "conciliacionOk": true,
+    "pendientes": 3,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794,
+      20380608
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555,
+      21352699
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871,
+      13616327
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655,
+      29101237
+     ]
+    }
+   },
+   "insights": [
+    [
+     "desv-gas-2026-06",
+     "El gasto de gas aumentó 65% frente al promedio de los últimos 5 meses",
+     "$1.907.993 en junio 2026 vs. un promedio de $1.157.014.",
+     750978.6000000001,
+     "advertencia",
+     null
+    ],
+    [
+     "desv-telefonia-2026-06",
+     "El gasto de telefonía aumentó 200% frente al promedio de los últimos 5 meses",
+     "$85.111 en junio 2026 vs. un promedio de $28.407.",
+     56703.8,
+     "advertencia",
+     null
+    ],
+    [
+     "pendientes-2026-06",
+     "Se detectaron 3 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     953668,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondos-bajos-2026-06",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "agua-precio-2026-06",
+     "El precio por m³ de agua caliente subió 68%",
+     "Costo de $8.312 por m³; el gas aporta $2.861.989 y el agua $298.099 del costo total.",
+     8311.67,
+     "atencion",
+     "medidores"
+    ],
+    [
+     "fondo-reserva-2026-06",
+     "El fondo de reserva alcanzó un saldo de $23.813.750",
+     "Equivale a 82% de los fondos acumulados ($29.101.237) y varió $871.033 en el mes.",
+     23813750,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-06",
+     "El saldo en caja es $13.616.327, equivalente a 0,7 meses de egresos",
+     "Varió ↑ 5,0% frente a mayo 2026.",
+     13616327,
+     "info",
+     null
+    ],
+    [
+     "recurrente-2026-06",
+     "72% del gasto del período es recurrente",
+     "34 movimientos fijos suman $12.328.748; el resto es variable o extraordinario.",
+     12328748,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-06",
+     "Administración es la categoría de mayor gasto (55%)",
+     "Concentra $9.406.535 de los egresos comunitarios de junio 2026.",
+     9406535,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-06",
+     "Los gastos de uso y consumo representan 28% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $4.838.787 en junio 2026 sobre un gasto común de $17.220.520.",
+     4838787,
+     "info",
+     null
+    ],
+    [
+     "agua-consumo-2026-06",
+     "El consumo de agua caliente bajó 18% frente al mes anterior",
+     "380,2 m³ en la comunidad en junio 2026.",
+     3160088,
+     "info",
+     "medidores"
+    ],
+    [
+     "mayor-gasto-2026-06",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.460.015 en electricidad (14,3% del gasto común).",
+     2460015,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-06",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$2.460.015 pagados en 1 movimiento(s) durante junio 2026.",
+     2460015,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-07-2026-06",
+     "Existen 14 pagos registrados en julio asociados al período de junio",
+     "Corresponden a gastos de la cartola de junio 2026 pagados en julio 2026; no los confundas con egresos del mes siguiente.",
+     2243065,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-06",
+     "Se detectaron 11 gastos extraordinarios por $2.153.879",
+     "Representan 13% del gasto común de junio 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     2153879,
+     "info",
+     null
+    ],
+    [
+     "desv-administracion-2026-06",
+     "La categoría Administración aumentó 20% frente al promedio de los últimos 5 meses",
+     "$9.406.535 en junio 2026 vs. un promedio de $7.845.876.",
+     1560659.2000000002,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-06",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     1310369,
+     "info",
+     "fondos"
+    ],
+    [
+     "superavit-2026-06",
+     "Los ingresos superaron a los egresos en $972.091",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     972091,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-uso-y-consumo-2026-06",
+     "La categoría Gastos de Uso y Consumo aumentó 23% frente al promedio de los últimos 5 meses",
+     "$4.838.787 en junio 2026 vs. un promedio de $3.922.971.",
+     915815.6000000001,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-uso-y-consumo-2026-06",
+     "La categoría Gastos de Uso y Consumo aumentó 22% respecto de mayo 2026",
+     "$4.838.787 en junio 2026 vs. $3.964.327 el período anterior.",
+     874460,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-mantencion-2026-06",
+     "La categoría Gastos de Mantención disminuyó 20% frente al promedio de los últimos 5 meses",
+     "$2.221.238 en junio 2026 vs. un promedio de $2.774.606.",
+     -553368,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-mantencion-2026-06",
+     "La categoría Gastos de Mantención aumentó 21% respecto de mayo 2026",
+     "$2.221.238 en junio 2026 vs. $1.834.775 el período anterior.",
+     386463,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-reparacion-2026-06",
+     "La categoría Gastos de Reparación disminuyó 34% frente al promedio de los últimos 5 meses",
+     "$753.960 en junio 2026 vs. un promedio de $1.134.244.",
+     -380283.80000000005,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-reparacion-2026-06",
+     "La categoría Gastos de Reparación disminuyó 22% respecto de mayo 2026",
+     "$753.960 en junio 2026 vs. $960.742 el período anterior.",
+     -206782,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-06",
+     "El fondo \"Fondo de multas\" tuvo el mayor crecimiento del período",
+     "Aumentó $168.082 y llegó a $835.904.",
+     168082,
+     "info",
+     "fondos"
+    ],
+    [
+     "desv-agua-potable-2026-06",
+     "El gasto de agua potable disminuyó 29% frente al promedio de los últimos 5 meses",
+     "$385.668 en junio 2026 vs. un promedio de $543.472.",
+     -157803.59999999998,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-06",
+     "La conciliación cuadra: 21 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "desv-gas-2026-06",
+     "El gasto de gas aumentó 65% frente al promedio de los últimos 5 meses",
+     750978.6000000001,
+     "advertencia"
+    ],
+    [
+     "desv-telefonia-2026-06",
+     "El gasto de telefonía aumentó 200% frente al promedio de los últimos 5 meses",
+     56703.8,
+     "advertencia"
+    ],
+    [
+     "sin-doc-2026-06",
+     "Se detectaron 4 movimientos de empresas sin número de documento",
+     3292854,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-06",
+     "Se detectaron 3 registros pendientes de revisión",
+     953668,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-06",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "agua-precio-2026-06",
+     "El precio por m³ de agua caliente subió 68%",
+     8311.67,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 21352699,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 17220520,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 3160088,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 972091,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 13616327,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 9406535,
+     "cantidad": 35,
+     "participacion": 0.5462398928719923,
+     "ids": 35,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 5475078,
+       "cantidad": 18,
+       "ids": 18,
+       "participacion": 0.317939179536971
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 3931457,
+       "cantidad": 17,
+       "ids": 17,
+       "participacion": 0.22830071333502125
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 4838787,
+     "cantidad": 7,
+     "participacion": 0.28098959845579574,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2460015,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.14285370012055384
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 1907993,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.11079764141849376
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 385668,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.022395839382318303
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 85111,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004942417534429855
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 2221238,
+     "cantidad": 10,
+     "participacion": 0.12898785867093443,
+     "ids": 10,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 780674,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.045333938812532955
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 433956,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.02519993589043769
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 428036,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.02485615997658607
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 148444,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.008620181039829228
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 130500,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.007578168371222239
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 117450,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.006820351534100016
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 104400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.006062534696977792
+      },
+      {
+       "nombre": "Iluminación",
+       "icono": "💡",
+       "total": 77778,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004516588349248455
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 753960,
+     "cantidad": 4,
+     "participacion": 0.04378265000127755,
+     "ids": 4,
+     "hijos": [
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 722640,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.04196388959218421
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 31320,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0018187604090933375
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-06",
+    "totalIngresos": 21352699,
+    "totalEgresos": 20380608,
+    "saldoCaja": 13616327,
+    "egresosGC": 17220520,
+    "egresosFondos": 0,
+    "egresosMedidores": 3160088,
+    "fondosAcumulados": 29101237,
+    "recurrente": 101711,
+    "extraordinario": 17770,
+    "variable": 22587,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 77603
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 20295,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.08299224700583895,
+    "conciliacionOk": true,
+    "pendientes": 3,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794,
+      20380608
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555,
+      21352699
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871,
+      13616327
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655,
+      29101237
+     ]
+    }
+   },
+   "insights": [
+    [
+     "desv-gas-2026-06",
+     "El gasto de gas aumentó 65% frente al promedio de los últimos 5 meses",
+     "$15.741 en junio 2026 vs. un promedio de $9.545.",
+     6195.6,
+     "advertencia",
+     null
+    ],
+    [
+     "desv-telefonia-2026-06",
+     "El gasto de telefonía aumentó 199% frente al promedio de los últimos 5 meses",
+     "$702 en junio 2026 vs. un promedio de $234.",
+     467.6,
+     "advertencia",
+     null
+    ],
+    [
+     "fondos-bajos-2026-06",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "agua-precio-2026-06",
+     "El precio por m³ de agua caliente subió 68%",
+     "Costo de $8.312 por m³; el gas aporta $2.861.989 y el agua $298.099 del costo total.",
+     8311.67,
+     "atencion",
+     "medidores"
+    ],
+    [
+     "pendientes-2026-06",
+     "Se detectaron 3 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     7869,
+     "atencion",
+     "revision"
+    ],
+    [
+     "fondo-reserva-2026-06",
+     "El fondo de reserva alcanzó un saldo de $23.813.750",
+     "Equivale a 82% de los fondos acumulados ($29.101.237) y varió $871.033 en el mes.",
+     23813750,
+     "info",
+     "fondos"
+    ],
+    [
+     "saldo-caja-2026-06",
+     "El saldo en caja es $13.616.327, equivalente a 0,7 meses de egresos",
+     "Varió ↑ 5,0% frente a mayo 2026.",
+     13616327,
+     "info",
+     null
+    ],
+    [
+     "agua-consumo-2026-06",
+     "El consumo de agua caliente bajó 18% frente al mes anterior",
+     "380,2 m³ en la comunidad en junio 2026.",
+     3160088,
+     "info",
+     "medidores"
+    ],
+    [
+     "fondos-sin-mov-2026-06",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     1310369,
+     "info",
+     "fondos"
+    ],
+    [
+     "superavit-2026-06",
+     "Los ingresos superaron a los egresos en $972.091",
+     "El período cerró con superávit y el saldo en caja aumentó.",
+     972091,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-06",
+     "El fondo \"Fondo de multas\" tuvo el mayor crecimiento del período",
+     "Aumentó $168.082 y llegó a $835.904.",
+     168082,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-06",
+     "72% del gasto del período es recurrente",
+     "34 movimientos fijos suman $101.711; el resto es variable o extraordinario.",
+     101711,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-06",
+     "Administración es la categoría de mayor gasto (55%)",
+     "Concentra $77.603 de los egresos comunitarios de junio 2026.",
+     77603,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-06",
+     "Los gastos de uso y consumo representan 28% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $39.920 en junio 2026 sobre un gasto común de $142.068.",
+     39920,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-06",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $20.295 en electricidad (14,3% del gasto común).",
+     20295,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-06",
+     "El proveedor Enel S.A concentra 14% del gasto total",
+     "$20.295 pagados en 1 movimiento(s) durante junio 2026.",
+     20295,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-07-2026-06",
+     "Existen 14 pagos registrados en julio asociados al período de junio",
+     "Corresponden a gastos de la cartola de junio 2026 pagados en julio 2026; no los confundas con egresos del mes siguiente.",
+     18504,
+     "info",
+     null
+    ],
+    [
+     "extraordinarios-2026-06",
+     "Se detectaron 11 gastos extraordinarios por $17.770",
+     "Representan 13% del gasto común de junio 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     17770,
+     "info",
+     null
+    ],
+    [
+     "desv-agua-potable-2026-06",
+     "El gasto de agua potable disminuyó 29% frente al promedio de los últimos 5 meses",
+     "$3.182 en junio 2026 vs. un promedio de $4.484.",
+     -1301.6000000000004,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-06",
+     "La conciliación cuadra: 21 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "desv-gas-2026-06",
+     "El gasto de gas aumentó 65% frente al promedio de los últimos 5 meses",
+     750978.6000000001,
+     "advertencia"
+    ],
+    [
+     "desv-telefonia-2026-06",
+     "El gasto de telefonía aumentó 200% frente al promedio de los últimos 5 meses",
+     56703.8,
+     "advertencia"
+    ],
+    [
+     "sin-doc-2026-06",
+     "Se detectaron 4 movimientos de empresas sin número de documento",
+     3292854,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-06",
+     "Se detectaron 3 registros pendientes de revisión",
+     953668,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-06",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "agua-precio-2026-06",
+     "El precio por m³ de agua caliente subió 68%",
+     8311.67,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 21352699,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 17220520,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 0,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 3160088,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": 972091,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 13616327,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 77603,
+     "cantidad": 35,
+     "participacion": 0.5462384210378128,
+     "ids": 35,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 45169,
+       "cantidad": 18,
+       "ids": 18,
+       "participacion": 0.3179392966748318
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 32434,
+       "cantidad": 17,
+       "ids": 17,
+       "participacion": 0.2282991243629811
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 39920,
+     "cantidad": 7,
+     "participacion": 0.2809922009178703,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 20295,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.14285412619309062
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 15741,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.11079905397415322
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 3182,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.02239772503308275
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 702,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004941295717543711
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 18326,
+     "cantidad": 10,
+     "participacion": 0.12899456598248726,
+     "ids": 10,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6441,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04533744404088183
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 3580,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.025199200382915225
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 3531,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.024854295126277556
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 1225,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.008622631415941662
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 1077,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.007580876763240139
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 969,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.006820677422079567
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 861,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0060604780809189965
+      },
+      {
+       "nombre": "Iluminación",
+       "icono": "💡",
+       "total": 642,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004518962750232283
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 6219,
+     "cantidad": 4,
+     "participacion": 0.043774812061829545,
+     "ids": 4,
+     "hijos": [
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 5961,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.041958780302390405
+      },
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 258,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0018160317594391419
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2026-07": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-07",
+    "totalIngresos": 22613084,
+    "totalEgresos": 26840611,
+    "saldoCaja": 5508363,
+    "egresosGC": 18872785,
+    "egresosFondos": 4350000,
+    "egresosMedidores": 3617826,
+    "fondosAcumulados": 26086322,
+    "recurrente": 12522226,
+    "extraordinario": 3076847,
+    "variable": 3273712,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 10022422
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2856728,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.3169681198912221,
+    "conciliacionOk": true,
+    "pendientes": 4,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794,
+      20380608,
+      26840611
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555,
+      21352699,
+      22613084
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871,
+      13616327,
+      5508363
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655,
+      29101237,
+      26086322
+     ]
+    }
+   },
+   "insights": [
+    [
+     "saldo-caja-2026-07",
+     "El saldo en caja es $5.508.363, equivalente a 0,2 meses de egresos",
+     "Varió ↓ 59,5% frente a junio 2026.",
+     5508363,
+     "advertencia",
+     null
+    ],
+    [
+     "fondo-egreso-fondo-de-reserva-2026-07",
+     "El fondo \"Fondo de reserva\" tuvo egresos por $4.350.000 (por primera vez en los 6 meses cargados)",
+     "Los egresos superan las entradas del mes ($943.663); el saldo quedó en $20.319.747 (↓ 14,7%).",
+     4350000,
+     "advertencia",
+     "fondos"
+    ],
+    [
+     "deficit-2026-07",
+     "Los egresos superaron a los ingresos en $4.227.527",
+     "Ingresos $22.613.084 vs. egresos $26.840.611 en julio 2026; el saldo en caja absorbió la diferencia.",
+     4227527,
+     "advertencia",
+     null
+    ],
+    [
+     "desv-gas-2026-07",
+     "El gasto de gas aumentó 72% frente al promedio de los últimos 6 meses",
+     "$2.208.677 en julio 2026 vs. un promedio de $1.282.178.",
+     926499.5,
+     "advertencia",
+     null
+    ],
+    [
+     "var-egresos-2026-07",
+     "Los egresos totales subieron 32% frente a junio 2026",
+     "$26.840.611 en julio 2026 vs. $20.380.608.",
+     6460003,
+     "atencion",
+     null
+    ],
+    [
+     "agua-consumo-2026-07",
+     "El consumo de agua caliente subió 59% frente al mes anterior",
+     "604,2 m³ en la comunidad en julio 2026.",
+     3617826,
+     "atencion",
+     "medidores"
+    ],
+    [
+     "extraordinarios-2026-07",
+     "Se detectaron 11 gastos extraordinarios por $3.076.847",
+     "Representan 16% del gasto común de julio 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     3076847,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-07",
+     "Se detectaron 4 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     1586189,
+     "atencion",
+     "revision"
+    ],
+    [
+     "desv-gastos-de-uso-y-consumo-2026-07",
+     "La categoría Gastos de Uso y Consumo aumentó 31% frente al promedio de los últimos 6 meses",
+     "$5.353.073 en julio 2026 vs. un promedio de $4.075.607.",
+     1277465.6666666665,
+     "atencion",
+     null
+    ],
+    [
+     "desv-electricidad-2026-07",
+     "El gasto de electricidad aumentó 28% frente al promedio de los últimos 6 meses",
+     "$2.856.728 en julio 2026 vs. un promedio de $2.238.401.",
+     618327,
+     "atencion",
+     null
+    ],
+    [
+     "desv-gastos-de-reparacion-2026-07",
+     "La categoría Gastos de Reparación aumentó 44% frente al promedio de los últimos 6 meses",
+     "$1.546.767 en julio 2026 vs. un promedio de $1.070.863.",
+     475903.83333333326,
+     "atencion",
+     null
+    ],
+    [
+     "fondos-bajos-2026-07",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "duplicados-2026-07",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-07",
+     "El fondo de reserva alcanzó un saldo de $20.319.747",
+     "Equivale a 78% de los fondos acumulados ($26.086.322) y varió -$3.494.003 en el mes.",
+     20319747,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-07",
+     "66% del gasto del período es recurrente",
+     "35 movimientos fijos suman $12.522.226; el resto es variable o extraordinario.",
+     12522226,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-07",
+     "Administración es la categoría de mayor gasto (53%)",
+     "Concentra $10.022.422 de los egresos comunitarios de julio 2026.",
+     10022422,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-08-2026-07",
+     "Existen 17 pagos registrados en agosto asociados al período de julio",
+     "Corresponden a gastos de la cartola de julio 2026 pagados en agosto 2026; no los confundas con egresos del mes siguiente.",
+     7506680,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-07",
+     "Los gastos de uso y consumo representan 28% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $5.353.073 en julio 2026 sobre un gasto común de $18.872.785.",
+     5353073,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-07",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.856.728 en electricidad (15,1% del gasto común).",
+     2856728,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-07",
+     "El proveedor Enel S.A concentra 15% del gasto total",
+     "$2.856.728 pagados en 1 movimiento(s) durante julio 2026.",
+     2856728,
+     "info",
+     null
+    ],
+    [
+     "desv-administracion-2026-07",
+     "La categoría Administración aumentó 24% frente al promedio de los últimos 6 meses",
+     "$10.022.422 en julio 2026 vs. un promedio de $8.105.986.",
+     1916436.333333333,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-07",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     1449512,
+     "info",
+     "fondos"
+    ],
+    [
+     "cat-var-gastos-de-reparacion-2026-07",
+     "La categoría Gastos de Reparación aumentó 105% respecto de junio 2026",
+     "$1.546.767 en julio 2026 vs. $753.960 el período anterior.",
+     792807,
+     "info",
+     null
+    ],
+    [
+     "desv-gastos-de-mantencion-2026-07",
+     "La categoría Gastos de Mantención disminuyó 27% frente al promedio de los últimos 6 meses",
+     "$1.950.523 en julio 2026 vs. un promedio de $2.682.378.",
+     -731855,
+     "info",
+     null
+    ],
+    [
+     "desv-agua-potable-2026-07",
+     "El gasto de agua potable disminuyó 44% frente al promedio de los últimos 6 meses",
+     "$287.668 en julio 2026 vs. un promedio de $517.171.",
+     -229503,
+     "info",
+     null
+    ],
+    [
+     "fondo-crece-2026-07",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $168.380 y llegó a $1.090.923.",
+     168380,
+     "info",
+     "fondos"
+    ],
+    [
+     "desv-telefonia-2026-07",
+     "El gasto de telefonía disminuyó 100% frente al promedio de los últimos 6 meses",
+     "$0 en julio 2026 vs. un promedio de $37.858.",
+     -37857.833333333336,
+     "info",
+     null
+    ],
+    [
+     "agua-precio-2026-07",
+     "El precio por m³ de agua caliente bajó 28%",
+     "Costo de $5.988 por m³; el gas aporta $3.313.015 y el agua $304.811 del costo total.",
+     5988.17,
+     "info",
+     "medidores"
+    ],
+    [
+     "conciliacion-ok-2026-07",
+     "La conciliación cuadra: 19 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "saldo-caja-2026-07",
+     "El saldo en caja es $5.508.363, equivalente a 0,2 meses de egresos",
+     5508363,
+     "advertencia"
+    ],
+    [
+     "fondo-egreso-fondo-de-reserva-2026-07",
+     "El fondo \"Fondo de reserva\" tuvo egresos por $4.350.000 (por primera vez en los 6 meses cargados)",
+     4350000,
+     "advertencia"
+    ],
+    [
+     "deficit-2026-07",
+     "Los egresos superaron a los ingresos en $4.227.527",
+     4227527,
+     "advertencia"
+    ],
+    [
+     "desv-gas-2026-07",
+     "El gasto de gas aumentó 72% frente al promedio de los últimos 6 meses",
+     926499.5,
+     "advertencia"
+    ],
+    [
+     "fecha-anterior-2026-07",
+     "Hay 1 egreso(s) con fecha anterior al período de la cartola",
+     482392,
+     "advertencia"
+    ],
+    [
+     "pendientes-2026-07",
+     "Se detectaron 4 registros pendientes de revisión",
+     1586189,
+     "atencion"
+    ],
+    [
+     "desv-gastos-de-uso-y-consumo-2026-07",
+     "La categoría Gastos de Uso y Consumo aumentó 31% frente al promedio de los últimos 6 meses",
+     1277465.6666666665,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-07",
+     "Se detectaron 7 movimientos de empresas sin número de documento",
+     1123079,
+     "atencion"
+    ],
+    [
+     "desv-electricidad-2026-07",
+     "El gasto de electricidad aumentó 28% frente al promedio de los últimos 6 meses",
+     618327,
+     "atencion"
+    ],
+    [
+     "desv-gastos-de-reparacion-2026-07",
+     "La categoría Gastos de Reparación aumentó 44% frente al promedio de los últimos 6 meses",
+     475903.83333333326,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-07",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-07",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 22613084,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 18872785,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 4350000,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 3617826,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": -4227527,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 5508363,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 10022422,
+     "cantidad": 38,
+     "participacion": 0.5310515644617368,
+     "ids": 38,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 5346057,
+       "cantidad": 18,
+       "ids": 18,
+       "participacion": 0.28326804973404823
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 4676365,
+       "cantidad": 20,
+       "ids": 20,
+       "participacion": 0.2477835147276886
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 5353073,
+     "cantidad": 6,
+     "participacion": 0.28363980196881383,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2856728,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.15136759095173288
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 2208677,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.11702973355548744
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 287668,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.015242477461593506
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 1950523,
+     "cantidad": 8,
+     "participacion": 0.10335109524111041,
+     "ids": 8,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 780877,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04137582238127547
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 428036,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.022680065501726427
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 174000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009219624978507411
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 148444,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.007865505806376748
+      },
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 134589,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.007131379920875483
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 104400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005531774987104447
+      },
+      {
+       "nombre": "Generador",
+       "icono": "🔌",
+       "total": 93177,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004937109175990719
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 87000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004609812489253706
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 1546767,
+     "cantidad": 11,
+     "participacion": 0.08195753832833892,
+     "ids": 11,
+     "hijos": [
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 975799,
+       "cantidad": 6,
+       "ids": 6,
+       "participacion": 0.051704027783922725
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 421367,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.02232669953056743
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 92659,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004909662246457001
+      },
+      {
+       "nombre": "Ascensores",
+       "icono": "🛗",
+       "total": 56942,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.003017148767391776
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-07",
+    "totalIngresos": 22613084,
+    "totalEgresos": 26840611,
+    "saldoCaja": 5508363,
+    "egresosGC": 18872785,
+    "egresosFondos": 4350000,
+    "egresosMedidores": 3617826,
+    "fondosAcumulados": 26086322,
+    "recurrente": 103307,
+    "extraordinario": 25383,
+    "variable": 27009,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 82686
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 23568,
+     "esPersona": false
+    },
+    "variacionEgresos": 0.3169681198912221,
+    "conciliacionOk": true,
+    "pendientes": 4,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794,
+      20380608,
+      26840611
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555,
+      21352699,
+      22613084
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871,
+      13616327,
+      5508363
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655,
+      29101237,
+      26086322
+     ]
+    }
+   },
+   "insights": [
+    [
+     "saldo-caja-2026-07",
+     "El saldo en caja es $5.508.363, equivalente a 0,2 meses de egresos",
+     "Varió ↓ 59,5% frente a junio 2026.",
+     5508363,
+     "advertencia",
+     null
+    ],
+    [
+     "fondo-egreso-fondo-de-reserva-2026-07",
+     "El fondo \"Fondo de reserva\" tuvo egresos por $4.350.000 (por primera vez en los 6 meses cargados)",
+     "Los egresos superan las entradas del mes ($943.663); el saldo quedó en $20.319.747 (↓ 14,7%).",
+     4350000,
+     "advertencia",
+     "fondos"
+    ],
+    [
+     "deficit-2026-07",
+     "Los egresos superaron a los ingresos en $4.227.527",
+     "Ingresos $22.613.084 vs. egresos $26.840.611 en julio 2026; el saldo en caja absorbió la diferencia.",
+     4227527,
+     "advertencia",
+     null
+    ],
+    [
+     "desv-gas-2026-07",
+     "El gasto de gas aumentó 72% frente al promedio de los últimos 6 meses",
+     "$18.221 en julio 2026 vs. un promedio de $10.578.",
+     7643,
+     "advertencia",
+     null
+    ],
+    [
+     "var-egresos-2026-07",
+     "Los egresos totales subieron 32% frente a junio 2026",
+     "$26.840.611 en julio 2026 vs. $20.380.608.",
+     6460003,
+     "atencion",
+     null
+    ],
+    [
+     "agua-consumo-2026-07",
+     "El consumo de agua caliente subió 59% frente al mes anterior",
+     "604,2 m³ en la comunidad en julio 2026.",
+     3617826,
+     "atencion",
+     "medidores"
+    ],
+    [
+     "fondos-bajos-2026-07",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "extraordinarios-2026-07",
+     "Se detectaron 11 gastos extraordinarios por $25.383",
+     "Representan 16% del gasto común de julio 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     25383,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-07",
+     "Se detectaron 4 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     13086,
+     "atencion",
+     "revision"
+    ],
+    [
+     "desv-electricidad-2026-07",
+     "El gasto de electricidad aumentó 28% frente al promedio de los últimos 6 meses",
+     "$23.568 en julio 2026 vs. un promedio de $18.467.",
+     5101.5,
+     "atencion",
+     null
+    ],
+    [
+     "duplicados-2026-07",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-07",
+     "El fondo de reserva alcanzó un saldo de $20.319.747",
+     "Equivale a 78% de los fondos acumulados ($26.086.322) y varió -$3.494.003 en el mes.",
+     20319747,
+     "info",
+     "fondos"
+    ],
+    [
+     "fondos-sin-mov-2026-07",
+     "3 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de multas, Fondo de Reserva Interés depósito a plazo.",
+     1449512,
+     "info",
+     "fondos"
+    ],
+    [
+     "fondo-crece-2026-07",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $168.380 y llegó a $1.090.923.",
+     168380,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-07",
+     "66% del gasto del período es recurrente",
+     "35 movimientos fijos suman $103.307; el resto es variable o extraordinario.",
+     103307,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-07",
+     "Administración es la categoría de mayor gasto (53%)",
+     "Concentra $82.686 de los egresos comunitarios de julio 2026.",
+     82686,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-08-2026-07",
+     "Existen 17 pagos registrados en agosto asociados al período de julio",
+     "Corresponden a gastos de la cartola de julio 2026 pagados en agosto 2026; no los confundas con egresos del mes siguiente.",
+     61930,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-07",
+     "Los gastos de uso y consumo representan 28% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $44.162 en julio 2026 sobre un gasto común de $155.699.",
+     44162,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-07",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $23.568 en electricidad (15,1% del gasto común).",
+     23568,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-07",
+     "El proveedor Enel S.A concentra 15% del gasto total",
+     "$23.568 pagados en 1 movimiento(s) durante julio 2026.",
+     23568,
+     "info",
+     null
+    ],
+    [
+     "agua-precio-2026-07",
+     "El precio por m³ de agua caliente bajó 28%",
+     "Costo de $5.988 por m³; el gas aporta $3.313.015 y el agua $304.811 del costo total.",
+     5988.17,
+     "info",
+     "medidores"
+    ],
+    [
+     "desv-agua-potable-2026-07",
+     "El gasto de agua potable disminuyó 44% frente al promedio de los últimos 6 meses",
+     "$2.373 en julio 2026 vs. un promedio de $4.267.",
+     -1893.666666666667,
+     "info",
+     null
+    ],
+    [
+     "desv-telefonia-2026-07",
+     "El gasto de telefonía disminuyó 100% frente al promedio de los últimos 6 meses",
+     "$0 en julio 2026 vs. un promedio de $312.",
+     -312.3333333333333,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-07",
+     "La conciliación cuadra: 19 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "saldo-caja-2026-07",
+     "El saldo en caja es $5.508.363, equivalente a 0,2 meses de egresos",
+     5508363,
+     "advertencia"
+    ],
+    [
+     "fondo-egreso-fondo-de-reserva-2026-07",
+     "El fondo \"Fondo de reserva\" tuvo egresos por $4.350.000 (por primera vez en los 6 meses cargados)",
+     4350000,
+     "advertencia"
+    ],
+    [
+     "deficit-2026-07",
+     "Los egresos superaron a los ingresos en $4.227.527",
+     4227527,
+     "advertencia"
+    ],
+    [
+     "desv-gas-2026-07",
+     "El gasto de gas aumentó 72% frente al promedio de los últimos 6 meses",
+     926499.5,
+     "advertencia"
+    ],
+    [
+     "fecha-anterior-2026-07",
+     "Hay 1 egreso(s) con fecha anterior al período de la cartola",
+     482392,
+     "advertencia"
+    ],
+    [
+     "pendientes-2026-07",
+     "Se detectaron 4 registros pendientes de revisión",
+     1586189,
+     "atencion"
+    ],
+    [
+     "desv-gastos-de-uso-y-consumo-2026-07",
+     "La categoría Gastos de Uso y Consumo aumentó 31% frente al promedio de los últimos 6 meses",
+     1277465.6666666665,
+     "atencion"
+    ],
+    [
+     "sin-doc-2026-07",
+     "Se detectaron 7 movimientos de empresas sin número de documento",
+     1123079,
+     "atencion"
+    ],
+    [
+     "desv-electricidad-2026-07",
+     "El gasto de electricidad aumentó 28% frente al promedio de los últimos 6 meses",
+     618327,
+     "atencion"
+    ],
+    [
+     "desv-gastos-de-reparacion-2026-07",
+     "La categoría Gastos de Reparación aumentó 44% frente al promedio de los últimos 6 meses",
+     475903.83333333326,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-07",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-07",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 22613084,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 18872785,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 4350000,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 3617826,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": -4227527,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 5508363,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 82686,
+     "cantidad": 38,
+     "participacion": 0.5310631410606362,
+     "ids": 38,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 44104,
+       "cantidad": 18,
+       "ids": 18,
+       "participacion": 0.2832645039467177
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 38582,
+       "cantidad": 20,
+       "ids": 20,
+       "participacion": 0.24779863711391853
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 44162,
+     "cantidad": 6,
+     "participacion": 0.28363701757878984,
+     "ids": 6,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 23568,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.1513689875978651
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 18221,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.11702708431011118
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 2373,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.015240945670813556
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 16092,
+     "cantidad": 8,
+     "participacion": 0.10335326495353214,
+     "ids": 8,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6442,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04137470375532277
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 3531,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.02267837301459868
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 1436,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.00922292371819986
+      },
+      {
+       "nombre": "Piscina",
+       "icono": "🏊",
+       "total": 1225,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.007867744815316734
+      },
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 1110,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.007129140200001285
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 861,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005529900641622618
+      },
+      {
+       "nombre": "Generador",
+       "icono": "🔌",
+       "total": 769,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0049390169493702596
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 718,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.00461146185909993
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 12759,
+     "cantidad": 11,
+     "participacion": 0.0819465764070418,
+     "ids": 11,
+     "hijos": [
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 8049,
+       "cantidad": 6,
+       "ids": 6,
+       "participacion": 0.05169590042325256
+      },
+      {
+       "nombre": "Infraestructura",
+       "icono": "🏗️",
+       "total": 3475,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.022318704680184202
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 765,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004913326354054939
+      },
+      {
+       "nombre": "Ascensores",
+       "icono": "🛗",
+       "total": 470,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0030186449495500935
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "2026-08": {
+  "total": {
+   "resumen": {
+    "periodo": "2026-08",
+    "totalIngresos": 22268989,
+    "totalEgresos": 22496833,
+    "saldoCaja": 4165550,
+    "egresosGC": 18944839,
+    "egresosFondos": 41412,
+    "egresosMedidores": 3510582,
+    "fondosAcumulados": 27207160,
+    "recurrente": 12862237,
+    "extraordinario": 3458512,
+    "variable": 2624090,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 10018236
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 2850164,
+     "esPersona": false
+    },
+    "variacionEgresos": -0.16183603271922536,
+    "conciliacionOk": true,
+    "pendientes": 6,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794,
+      20380608,
+      26840611,
+      22496833
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555,
+      21352699,
+      22613084,
+      22268989
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871,
+      13616327,
+      5508363,
+      4165550
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655,
+      29101237,
+      26086322,
+      27207160
+     ]
+    }
+   },
+   "insights": [
+    [
+     "saldo-caja-2026-08",
+     "El saldo en caja es $4.165.550, equivalente a 0,2 meses de egresos",
+     "Varió ↓ 24,4% frente a julio 2026.",
+     4165550,
+     "advertencia",
+     null
+    ],
+    [
+     "desv-gas-2026-08",
+     "El gasto de gas aumentó 50% frente al promedio de los últimos 6 meses",
+     "$2.156.306 en agosto 2026 vs. un promedio de $1.437.207.",
+     719099.1666666667,
+     "advertencia",
+     null
+    ],
+    [
+     "deficit-2026-08",
+     "Los egresos superaron a los ingresos en $227.844",
+     "Ingresos $22.268.989 vs. egresos $22.496.833 en agosto 2026; el saldo en caja absorbió la diferencia.",
+     227844,
+     "advertencia",
+     null
+    ],
+    [
+     "extraordinarios-2026-08",
+     "Se detectaron 18 gastos extraordinarios por $3.458.512",
+     "Representan 18% del gasto común de agosto 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     3458512,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-08",
+     "Se detectaron 6 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     2006966,
+     "atencion",
+     "revision"
+    ],
+    [
+     "desv-gastos-de-uso-y-consumo-2026-08",
+     "La categoría Gastos de Uso y Consumo aumentó 27% frente al promedio de los últimos 6 meses",
+     "$5.434.183 en agosto 2026 vs. un promedio de $4.265.820.",
+     1168362.833333333,
+     "atencion",
+     null
+    ],
+    [
+     "fondos-bajos-2026-08",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-08",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $41.412 (por primera vez en 4 meses)",
+     "Egresos dentro de las entradas del mes; el saldo quedó en $678.061 (↓ 0,3%).",
+     41412,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "agua-precio-2026-08",
+     "El precio por m³ de agua caliente subió 63%",
+     "Costo de $9.739 por m³; el gas aporta $3.234.460 y el agua $276.122 del costo total.",
+     9739.15,
+     "atencion",
+     "medidores"
+    ],
+    [
+     "duplicados-2026-08",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-08",
+     "El fondo de reserva alcanzó un saldo de $21.190.399",
+     "Equivale a 78% de los fondos acumulados ($27.207.160) y varió $870.652 en el mes.",
+     21190399,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-08",
+     "68% del gasto del período es recurrente",
+     "33 movimientos fijos suman $12.862.237; el resto es variable o extraordinario.",
+     12862237,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-08",
+     "Administración es la categoría de mayor gasto (53%)",
+     "Concentra $10.018.236 de los egresos comunitarios de agosto 2026.",
+     10018236,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-09-2026-08",
+     "Existen 24 pagos registrados en septiembre asociados al período de agosto",
+     "Corresponden a gastos de la cartola de agosto 2026 pagados en septiembre 2026; no los confundas con egresos del mes siguiente.",
+     9538066,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-08",
+     "Los gastos de uso y consumo representan 29% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $5.434.183 en agosto 2026 sobre un gasto común de $18.944.839.",
+     5434183,
+     "info",
+     null
+    ],
+    [
+     "var-egresos-2026-08",
+     "Los egresos totales bajaron 16% frente a julio 2026",
+     "$22.496.833 en agosto 2026 vs. $26.840.611.",
+     -4343778,
+     "info",
+     null
+    ],
+    [
+     "agua-consumo-2026-08",
+     "El consumo de agua caliente bajó 40% frente al mes anterior",
+     "360,5 m³ en la comunidad en agosto 2026.",
+     3510582,
+     "info",
+     "medidores"
+    ],
+    [
+     "mayor-gasto-2026-08",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $2.850.164 en electricidad (15,0% del gasto común).",
+     2850164,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-08",
+     "El proveedor Enel S.A concentra 15% del gasto total",
+     "$2.850.164 pagados en 1 movimiento(s) durante agosto 2026.",
+     2850164,
+     "info",
+     null
+    ],
+    [
+     "desv-administracion-2026-08",
+     "La categoría Administración aumentó 17% frente al promedio de los últimos 6 meses",
+     "$10.018.236 en agosto 2026 vs. un promedio de $8.572.515.",
+     1445721.166666666,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-reparacion-2026-08",
+     "La categoría Gastos de Reparación disminuyó 45% respecto de julio 2026",
+     "$852.346 en agosto 2026 vs. $1.546.767 el período anterior.",
+     -694421,
+     "info",
+     null
+    ],
+    [
+     "cat-var-gastos-de-mantencion-2026-08",
+     "La categoría Gastos de Mantención aumentó 35% respecto de julio 2026",
+     "$2.640.074 en agosto 2026 vs. $1.950.523 el período anterior.",
+     689551,
+     "info",
+     null
+    ],
+    [
+     "desv-electricidad-2026-08",
+     "El gasto de electricidad aumentó 22% frente al promedio de los últimos 6 meses",
+     "$2.850.164 en agosto 2026 vs. un promedio de $2.331.135.",
+     519028.6666666665,
+     "info",
+     null
+    ],
+    [
+     "fondos-sin-mov-2026-08",
+     "2 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de Reserva Interés depósito a plazo.",
+     474465,
+     "info",
+     "fondos"
+    ],
+    [
+     "fondo-crece-2026-08",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $157.231 y llegó a $1.248.154.",
+     157231,
+     "info",
+     "fondos"
+    ],
+    [
+     "conciliacion-ok-2026-08",
+     "La conciliación cuadra: 23 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "saldo-caja-2026-08",
+     "El saldo en caja es $4.165.550, equivalente a 0,2 meses de egresos",
+     4165550,
+     "advertencia"
+    ],
+    [
+     "fecha-anterior-2026-08",
+     "Hay 3 egreso(s) con fecha anterior al período de la cartola",
+     1156642,
+     "advertencia"
+    ],
+    [
+     "desv-gas-2026-08",
+     "El gasto de gas aumentó 50% frente al promedio de los últimos 6 meses",
+     719099.1666666667,
+     "advertencia"
+    ],
+    [
+     "deficit-2026-08",
+     "Los egresos superaron a los ingresos en $227.844",
+     227844,
+     "advertencia"
+    ],
+    [
+     "sin-doc-2026-08",
+     "Se detectaron 2 movimientos de empresas sin número de documento",
+     2936837,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-08",
+     "Se detectaron 6 registros pendientes de revisión",
+     2006966,
+     "atencion"
+    ],
+    [
+     "desv-gastos-de-uso-y-consumo-2026-08",
+     "La categoría Gastos de Uso y Consumo aumentó 27% frente al promedio de los últimos 6 meses",
+     1168362.833333333,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-08",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-08",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $41.412 (por primera vez en 4 meses)",
+     41412,
+     "atencion"
+    ],
+    [
+     "agua-precio-2026-08",
+     "El precio por m³ de agua caliente subió 63%",
+     9739.15,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-08",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 22268989,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 18944839,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 41412,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 3510582,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": -227844,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 4165550,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 10018236,
+     "cantidad": 36,
+     "participacion": 0.528810828109967,
+     "ids": 36,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 5782611,
+       "cantidad": 18,
+       "ids": 18,
+       "participacion": 0.30523410623864367
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 2977054,
+       "cantidad": 15,
+       "ids": 15,
+       "participacion": 0.1571432726348321
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 1042683,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.055037839065299
+      },
+      {
+       "nombre": "Finiquitos",
+       "icono": "📄",
+       "total": 215888,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.011395610171192271
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 5434183,
+     "cantidad": 7,
+     "participacion": 0.2868423954407847,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 2850164,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.15044540626605482
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 2156306,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.1138202335739037
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 398973,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.021059719747420394
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 28740,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0015170358534057746
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 2640074,
+     "cantidad": 11,
+     "participacion": 0.13935584250676397,
+     "ids": 11,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 780531,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04120019177782403
+      },
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 507297,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.02677758306629051
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 506697,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.02674591217164738
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 428036,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.02259380509910905
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 174000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009184559446506776
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 104400,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.005510735667904066
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 87000,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004592279723253388
+      },
+      {
+       "nombre": "Iluminación",
+       "icono": "💡",
+       "total": 52113,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0027507755542287796
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 852346,
+     "cantidad": 5,
+     "participacion": 0.04499093394248428,
+     "ids": 5,
+     "hijos": [
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 821287,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.04335149008128282
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 31059,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0016394438612014597
+      }
+     ]
+    }
+   ]
+  },
+  "prorrateado": {
+   "resumen": {
+    "periodo": "2026-08",
+    "totalIngresos": 22268989,
+    "totalEgresos": 22496833,
+    "saldoCaja": 4165550,
+    "egresosGC": 18944839,
+    "egresosFondos": 41412,
+    "egresosMedidores": 3510582,
+    "fondosAcumulados": 27207160,
+    "recurrente": 106112,
+    "extraordinario": 28532,
+    "variable": 21650,
+    "categoriaTop": {
+     "nombre": "Administración",
+     "total": 82650
+    },
+    "proveedorTop": {
+     "nombre": "Enel S.A",
+     "total": 23513,
+     "esPersona": false
+    },
+    "variacionEgresos": -0.16183603271922536,
+    "conciliacionOk": true,
+    "pendientes": 6,
+    "sparklines": {
+     "egresos": [
+      18254310,
+      18049292,
+      16870646,
+      17768418,
+      18818794,
+      20380608,
+      26840611,
+      22496833
+     ],
+     "ingresos": [
+      19265888,
+      19947024,
+      16976616,
+      17458363,
+      19103555,
+      21352699,
+      22613084,
+      22268989
+     ],
+     "saldo": [
+      15229245,
+      15513421,
+      17566628,
+      17395379,
+      12971871,
+      13616327,
+      5508363,
+      4165550
+     ],
+     "fondos": [
+      24267583,
+      24781094,
+      25368970,
+      26504850,
+      27657655,
+      29101237,
+      26086322,
+      27207160
+     ]
+    }
+   },
+   "insights": [
+    [
+     "saldo-caja-2026-08",
+     "El saldo en caja es $4.165.550, equivalente a 0,2 meses de egresos",
+     "Varió ↓ 24,4% frente a julio 2026.",
+     4165550,
+     "advertencia",
+     null
+    ],
+    [
+     "deficit-2026-08",
+     "Los egresos superaron a los ingresos en $227.844",
+     "Ingresos $22.268.989 vs. egresos $22.496.833 en agosto 2026; el saldo en caja absorbió la diferencia.",
+     227844,
+     "advertencia",
+     null
+    ],
+    [
+     "desv-gas-2026-08",
+     "El gasto de gas aumentó 50% frente al promedio de los últimos 6 meses",
+     "$17.790 en agosto 2026 vs. un promedio de $11.857.",
+     5933.166666666666,
+     "advertencia",
+     null
+    ],
+    [
+     "fondos-bajos-2026-08",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     "Saldo menor a $200.000.",
+     136152,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-08",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $41.412 (por primera vez en 4 meses)",
+     "Egresos dentro de las entradas del mes; el saldo quedó en $678.061 (↓ 0,3%).",
+     41412,
+     "atencion",
+     "fondos"
+    ],
+    [
+     "extraordinarios-2026-08",
+     "Se detectaron 18 gastos extraordinarios por $28.532",
+     "Representan 18% del gasto común de agosto 2026. Puedes excluirlos de las tendencias para comparar meses.",
+     28532,
+     "atencion",
+     null
+    ],
+    [
+     "pendientes-2026-08",
+     "Se detectaron 6 registros pendientes de revisión",
+     "Tienen baja confianza, datos incompletos o validaciones por confirmar. Revísalos para asegurar la calidad de las cifras.",
+     16556,
+     "atencion",
+     "revision"
+    ],
+    [
+     "agua-precio-2026-08",
+     "El precio por m³ de agua caliente subió 63%",
+     "Costo de $9.739 por m³; el gas aporta $3.234.460 y el agua $276.122 del costo total.",
+     9739.15,
+     "atencion",
+     "medidores"
+    ],
+    [
+     "duplicados-2026-08",
+     "Existen 1 movimientos potencialmente duplicados",
+     "Coinciden proveedor, monto y fechas cercanas. Decide si mantener, fusionar o excluir.",
+     null,
+     "atencion",
+     "duplicados"
+    ],
+    [
+     "fondo-reserva-2026-08",
+     "El fondo de reserva alcanzó un saldo de $21.190.399",
+     "Equivale a 78% de los fondos acumulados ($27.207.160) y varió $870.652 en el mes.",
+     21190399,
+     "info",
+     "fondos"
+    ],
+    [
+     "var-egresos-2026-08",
+     "Los egresos totales bajaron 16% frente a julio 2026",
+     "$22.496.833 en agosto 2026 vs. $26.840.611.",
+     -4343778,
+     "info",
+     null
+    ],
+    [
+     "agua-consumo-2026-08",
+     "El consumo de agua caliente bajó 40% frente al mes anterior",
+     "360,5 m³ en la comunidad en agosto 2026.",
+     3510582,
+     "info",
+     "medidores"
+    ],
+    [
+     "fondos-sin-mov-2026-08",
+     "2 fondo(s) sin movimientos en el período",
+     "Facturas asignadas a departamentos, Fondo de Reserva Interés depósito a plazo.",
+     474465,
+     "info",
+     "fondos"
+    ],
+    [
+     "fondo-crece-2026-08",
+     "El fondo \"Seguro individual de departamentos\" tuvo el mayor crecimiento del período",
+     "Aumentó $157.231 y llegó a $1.248.154.",
+     157231,
+     "info",
+     "fondos"
+    ],
+    [
+     "recurrente-2026-08",
+     "68% del gasto del período es recurrente",
+     "33 movimientos fijos suman $106.112; el resto es variable o extraordinario.",
+     106112,
+     "info",
+     null
+    ],
+    [
+     "cat-top-2026-08",
+     "Administración es la categoría de mayor gasto (53%)",
+     "Concentra $82.650 de los egresos comunitarios de agosto 2026.",
+     82650,
+     "info",
+     null
+    ],
+    [
+     "pagos-tardios-2026-09-2026-08",
+     "Existen 24 pagos registrados en septiembre asociados al período de agosto",
+     "Corresponden a gastos de la cartola de agosto 2026 pagados en septiembre 2026; no los confundas con egresos del mes siguiente.",
+     78690,
+     "info",
+     null
+    ],
+    [
+     "uso-consumo-2026-08",
+     "Los gastos de uso y consumo representan 29% de los egresos comunitarios",
+     "Agua, electricidad, gas y telefonía suman $44.832 en agosto 2026 sobre un gasto común de $156.294.",
+     44832,
+     "info",
+     null
+    ],
+    [
+     "mayor-gasto-2026-08",
+     "Electricidad fue el mayor gasto individual del período",
+     "Un solo egreso de $23.513 en electricidad (15,0% del gasto común).",
+     23513,
+     "info",
+     null
+    ],
+    [
+     "proveedor-top-2026-08",
+     "El proveedor Enel S.A concentra 15% del gasto total",
+     "$23.513 pagados en 1 movimiento(s) durante agosto 2026.",
+     23513,
+     "info",
+     null
+    ],
+    [
+     "desv-electricidad-2026-08",
+     "El gasto de electricidad aumentó 22% frente al promedio de los últimos 6 meses",
+     "$23.513 en agosto 2026 vs. un promedio de $19.232.",
+     4281.333333333332,
+     "info",
+     null
+    ],
+    [
+     "conciliacion-ok-2026-08",
+     "La conciliación cuadra: 23 controles sin diferencias",
+     "Los movimientos extraídos coinciden con los totales impresos en la cartola.",
+     null,
+     "info",
+     "conciliacion"
+    ]
+   ],
+   "alertas": [
+    [
+     "saldo-caja-2026-08",
+     "El saldo en caja es $4.165.550, equivalente a 0,2 meses de egresos",
+     4165550,
+     "advertencia"
+    ],
+    [
+     "fecha-anterior-2026-08",
+     "Hay 3 egreso(s) con fecha anterior al período de la cartola",
+     1156642,
+     "advertencia"
+    ],
+    [
+     "desv-gas-2026-08",
+     "El gasto de gas aumentó 50% frente al promedio de los últimos 6 meses",
+     719099.1666666667,
+     "advertencia"
+    ],
+    [
+     "deficit-2026-08",
+     "Los egresos superaron a los ingresos en $227.844",
+     227844,
+     "advertencia"
+    ],
+    [
+     "sin-doc-2026-08",
+     "Se detectaron 2 movimientos de empresas sin número de documento",
+     2936837,
+     "atencion"
+    ],
+    [
+     "pendientes-2026-08",
+     "Se detectaron 6 registros pendientes de revisión",
+     2006966,
+     "atencion"
+    ],
+    [
+     "desv-gastos-de-uso-y-consumo-2026-08",
+     "La categoría Gastos de Uso y Consumo aumentó 27% frente al promedio de los últimos 6 meses",
+     1168362.833333333,
+     "atencion"
+    ],
+    [
+     "fondos-bajos-2026-08",
+     "Fondos con saldo cero o bajo: Facturas asignadas a departamentos, Fondo Inspección de gases",
+     136152,
+     "atencion"
+    ],
+    [
+     "fondo-egreso-fondo-uso-sala-de-eventos-2026-08",
+     "El fondo \"Fondo Uso sala de eventos\" tuvo egresos por $41.412 (por primera vez en 4 meses)",
+     41412,
+     "atencion"
+    ],
+    [
+     "agua-precio-2026-08",
+     "El precio por m³ de agua caliente subió 63%",
+     9739.15,
+     "atencion"
+    ],
+    [
+     "duplicados-2026-08",
+     "Existen 1 movimientos potencialmente duplicados",
+     null,
+     "atencion"
+    ]
+   ],
+   "cascada": [
+    {
+     "etiqueta": "Ingresos totales",
+     "valor": 22268989,
+     "tipo": "inicio"
+    },
+    {
+     "etiqueta": "Egresos de gasto común",
+     "valor": 18944839,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Egresos contra fondos",
+     "valor": 41412,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Agua caliente (medidores)",
+     "valor": 3510582,
+     "tipo": "resta"
+    },
+    {
+     "etiqueta": "Resultado del período",
+     "valor": -227844,
+     "tipo": "total"
+    },
+    {
+     "etiqueta": "Saldo en caja (informado)",
+     "valor": 4165550,
+     "tipo": "total"
+    }
+   ],
+   "categorias": [
+    {
+     "nombre": "Administración",
+     "icono": "🏢",
+     "total": 82650,
+     "cantidad": 36,
+     "participacion": 0.5288110867979577,
+     "ids": 36,
+     "hijos": [
+      {
+       "nombre": "Liquidaciones",
+       "icono": "👷",
+       "total": 47705,
+       "cantidad": 18,
+       "ids": 18,
+       "participacion": 0.3052260483447861
+      },
+      {
+       "nombre": "Gastos de Administración",
+       "icono": "🏢",
+       "total": 24560,
+       "cantidad": 15,
+       "ids": 15,
+       "participacion": 0.15713974944655584
+      },
+      {
+       "nombre": "Previred",
+       "icono": "🏛️",
+       "total": 8603,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.05504369969416612
+      },
+      {
+       "nombre": "Finiquitos",
+       "icono": "📄",
+       "total": 1782,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.011401589312449615
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Uso y Consumo",
+     "icono": "📊",
+     "total": 44832,
+     "cantidad": 7,
+     "participacion": 0.2868440247226381,
+     "ids": 7,
+     "hijos": [
+      {
+       "nombre": "Electricidad",
+       "icono": "⚡",
+       "total": 23513,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.15044083586062165
+      },
+      {
+       "nombre": "Gas",
+       "icono": "🔥",
+       "total": 17790,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.11382394717647511
+      },
+      {
+       "nombre": "Agua potable",
+       "icono": "💧",
+       "total": 3291,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.02105647049790779
+      },
+      {
+       "nombre": "Telefonía",
+       "icono": "📞",
+       "total": 238,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0015227711876335624
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Mantención",
+     "icono": "🔧",
+     "total": 21780,
+     "cantidad": 11,
+     "participacion": 0.13935275826327306,
+     "ids": 11,
+     "hijos": [
+      {
+       "nombre": "Seguros",
+       "icono": "🛡️",
+       "total": 6440,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.04120439684184934
+      },
+      {
+       "nombre": "Aguas servidas",
+       "icono": "💧",
+       "total": 4185,
+       "cantidad": 2,
+       "ids": 2,
+       "participacion": 0.0267764597489347
+      },
+      {
+       "nombre": "Aseo",
+       "icono": "🧹",
+       "total": 4179,
+       "cantidad": 3,
+       "ids": 3,
+       "participacion": 0.02673807055933049
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 3531,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.022592038082076087
+      },
+      {
+       "nombre": "Jardines",
+       "icono": "🌿",
+       "total": 1436,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.009187812711940318
+      },
+      {
+       "nombre": "Calderas",
+       "icono": "🔥",
+       "total": 861,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.00550884870820377
+      },
+      {
+       "nombre": "Bombas",
+       "icono": "⚙️",
+       "total": 718,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.004593906355970159
+      },
+      {
+       "nombre": "Iluminación",
+       "icono": "💡",
+       "total": 430,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.002751225254968201
+      }
+     ]
+    },
+    {
+     "nombre": "Gastos de Reparación",
+     "icono": "🛠️",
+     "total": 7032,
+     "cantidad": 5,
+     "participacion": 0.04499213021613114,
+     "ids": 5,
+     "hijos": [
+      {
+       "nombre": "Reparaciones sanitarias",
+       "icono": "💧",
+       "total": 6775,
+       "cantidad": 4,
+       "ids": 4,
+       "participacion": 0.043347793261417585
+      },
+      {
+       "nombre": "Otros",
+       "icono": "📌",
+       "total": 257,
+       "cantidad": 1,
+       "ids": 1,
+       "participacion": 0.0016443369547135527
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

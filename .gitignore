@@ -1,0 +1,16 @@
+# Datos reales: nunca se publican
+Datos_Ejemplo/
+tools/fixtures/
+respaldos/
+*.pdf
+dashboard_comunidad_feliz_*_export*.json
+
+# Instrucciones locales del asistente (contienen datos reales; la versión pública está en docs/REQUERIMIENTOS.md)
+CLAUDE.md
+.claude/
+
+# Dependencias y temporales
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
