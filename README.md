@@ -19,7 +19,9 @@ Cargas los PDF de tus cartolas y el dashboard extrae egresos, fondos, agua calie
 ## Cómo se usa
 
 ### 1. Descargar
-Descarga el archivo [`dashboard-comunidad.html`](dashboard-comunidad.html) (botón *Download raw file* en GitHub) y guárdalo en una carpeta de tu computador.
+**[⬇ Descargar dashboard-comunidad.html](https://github.com/KikeMuller/GastosComunesHappy/releases/latest/download/dashboard-comunidad.html)** (última versión) y guárdalo en una carpeta de tu computador.
+
+También lo encuentras, junto con las notas de cada versión, en la página de [releases](https://github.com/KikeMuller/GastosComunesHappy/releases).
 
 No necesitas instalar nada: ni Node.js, ni servidores, ni extensiones.
 
@@ -46,7 +48,7 @@ En la barra superior eliges:
 Desde **Respaldo y exportación** descarga periódicamente un **respaldo JSON**. Borrar los datos del navegador (historial, cookies o "datos de sitios") elimina lo guardado. Con el respaldo lo recuperas en cualquier navegador o computador con **Importar respaldo**.
 
 ### ¿Quieres probarlo sin tus cartolas?
-Descarga [`demo/respaldo-demo.json`](demo/respaldo-demo.json) e impórtalo desde **Respaldo y exportación → Importar respaldo**. Son 13 meses de una comunidad **ficticia**: nombres, documentos y montos inventados, generados para la demo. Todas las capturas de este README usan esos datos.
+Descarga [`respaldo-demo.json`](https://github.com/KikeMuller/GastosComunesHappy/releases/latest/download/respaldo-demo.json) e impórtalo desde **Respaldo y exportación → Importar respaldo**. Son 13 meses de una comunidad **ficticia**: nombres, documentos y montos inventados, generados para la demo. Todas las capturas de este README usan esos datos.
 
 ---
 
