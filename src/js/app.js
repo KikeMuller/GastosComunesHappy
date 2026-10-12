@@ -299,6 +299,24 @@
       links[s.id] = a; enlaces.appendChild(a);
     });
 
+    // Secciones que no caben en la barra se agrupan en "Más".
+    var items = {};
+    var menuMas = h('div', { class: 'nav-mas-menu', role: 'menu', hidden: true });
+    SECCIONES.forEach(function (s) {
+      var b = h('button', { type: 'button', role: 'menuitem', class: 'nav-mas-item', text: s.nav });
+      b.addEventListener('click', function () { cerrarMas(); ir(s.id); });
+      items[s.id] = b; menuMas.appendChild(b);
+    });
+    var btnMas = h('button', { type: 'button', class: 'nav-mas-btn', 'aria-haspopup': 'menu', 'aria-expanded': 'false', hidden: true }, ['Más ', h('span', { 'aria-hidden': 'true', text: '▾' })]);
+    function cerrarMas() { menuMas.hidden = true; btnMas.setAttribute('aria-expanded', 'false'); }
+    btnMas.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menuMas.hidden = !menuMas.hidden; btnMas.setAttribute('aria-expanded', String(!menuMas.hidden));
+    });
+    document.addEventListener('click', function (e) { if (!menuMas.hidden && !menuMas.contains(e.target) && e.target !== btnMas) cerrarMas(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menuMas.hidden) { cerrarMas(); btnMas.focus(); } });
+    var mas = h('div', { class: 'nav-mas' }, [btnMas, menuMas]);
+
     var segModo = C.segmented({
       etiqueta: 'Modo de visualización', pequeno: true, valor: state.modo,
       opciones: [{ valor: 'admin', texto: 'Administración', titulo: 'Muestra todos los datos y las herramientas de edición' }, { valor: 'presentacion', texto: 'Presentación', titulo: 'Oculta datos personales y herramientas de edición' }],
@@ -319,9 +337,12 @@
     nav.appendChild(h('div', { class: 'nav-in' }, [
       h('div', { class: 'nav-marca' }, [h('span', { class: 'punto' }), h('span', { class: 'txt', text: 'Comunidad' })]),
       enlaces,
+      mas,
       h('div', { class: 'nav-acciones' }, [segModo.el, btnTema, btnAj, pop])
     ]));
-    navRefs = { links: links, segModo: segModo, btnTema: btnTema, pop: pop };
+    navRefs = { links: links, items: items, enlaces: enlaces, btnMas: btnMas, menuMas: menuMas, segModo: segModo, btnTema: btnTema, pop: pop };
+    if (window.ResizeObserver) new ResizeObserver(function () { acomodarNav(); }).observe(nav);
+    else window.addEventListener('resize', acomodarNav);
 
     var tick = false;
     window.addEventListener('scroll', function () {
@@ -362,6 +383,7 @@
       var existe = !!(GC.ui[s.mod] && GC.ui[s.mod].render);
       a.hidden = !existe || (s.datos && !hay) || (s.id === 'sec-carga' && hay && state.modo === 'presentacion');
     });
+    acomodarNav();
     navRefs.segModo.set(state.modo);
     navRefs.btnTema.innerHTML = '';
     navRefs.btnTema.appendChild(c().icono(state.tema === 'oscuro' ? 'sol' : 'luna'));
@@ -370,6 +392,29 @@
     var pv = U.$('[data-ajuste="proveedores"]', navRefs.pop); if (pv) pv.checked = state.mostrarProveedores;
     resaltarNav();
   }
+  /** Muestra en la barra las secciones que caben; el resto pasa al menú "Más". */
+  function acomodarNav() {
+    if (!navRefs) return;
+    var pres = state.modo === 'presentacion';
+    var disp = SECCIONES.filter(function (s) { return !navRefs.links[s.id].hidden && !(s.admin && pres); });
+    SECCIONES.forEach(function (s) { navRefs.links[s.id].classList.remove('en-mas'); });
+    navRefs.btnMas.hidden = true;
+    var cont = navRefs.enlaces;
+    if (cont.scrollWidth > cont.clientWidth + 1) {
+      navRefs.btnMas.hidden = false;
+      for (var i = disp.length - 1; i >= 0 && cont.scrollWidth > cont.clientWidth + 1; i--) navRefs.links[disp[i].id].classList.add('en-mas');
+    }
+    var alguno = false;
+    SECCIONES.forEach(function (s) {
+      var enMas = disp.indexOf(s) >= 0 && navRefs.links[s.id].classList.contains('en-mas');
+      navRefs.items[s.id].hidden = !enMas;
+      if (enMas) alguno = true;
+    });
+    navRefs.btnMas.hidden = !alguno;
+    if (!alguno) navRefs.menuMas.hidden = true;
+    resaltarNav();
+  }
+
   function resaltarNav() {
     if (!navRefs) return;
     var actual = null, tope = 190;
@@ -377,7 +422,12 @@
       var el = document.getElementById(s.id);
       if (el && !el.hidden && el.offsetHeight && el.getBoundingClientRect().top <= tope) actual = s.id;
     });
-    SECCIONES.forEach(function (s) { navRefs.links[s.id].classList.toggle('activo', s.id === actual); });
+    SECCIONES.forEach(function (s) {
+      navRefs.links[s.id].classList.toggle('activo', s.id === actual);
+      navRefs.items[s.id].classList.toggle('activo', s.id === actual);
+    });
+    var activoEnMas = !!actual && navRefs.links[actual].classList.contains('en-mas');
+    navRefs.btnMas.classList.toggle('activo', activoEnMas);
   }
 
   // ---------- Banners y pie ----------
