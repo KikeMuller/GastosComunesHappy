@@ -67,7 +67,8 @@ function build() {
 
   const faltantes = APP_SCRIPTS.filter(s => !fs.existsSync(path.join(SRC, s)));
   if (faltantes.length) console.warn('Aviso: scripts faltantes (se omiten):', faltantes.join(', '));
-  const app = APP_SCRIPTS.filter(s => fs.existsSync(path.join(SRC, s)))
+  const version = JSON.parse(read(path.join(ROOT, 'package.json'))).version;
+  const app = `<script>window.GC_VERSION = ${JSON.stringify(version)};</script>\n` + APP_SCRIPTS.filter(s => fs.existsSync(path.join(SRC, s)))
     .map(s => `<script>/* ${s} */\n${safeScript(read(path.join(SRC, s)), s)}\n</script>`).join('\n');
 
   html = html

@@ -322,6 +322,14 @@
       opciones: [{ valor: 'admin', texto: 'Administración', titulo: 'Muestra todos los datos y las herramientas de edición' }, { valor: 'presentacion', texto: 'Presentación', titulo: 'Oculta datos personales y herramientas de edición' }],
       onChange: function (v) { set({ modo: v }); }
     });
+    // En pantallas angostas se muestran etiquetas cortas ("Admin" / "Presentar").
+    var CORTOS = { admin: 'Admin', presentacion: 'Presentar' };
+    Array.prototype.forEach.call(segModo.el.querySelectorAll('button'), function (b, i) {
+      var largo = b.textContent, corto = CORTOS[i === 0 ? 'admin' : 'presentacion'];
+      b.textContent = '';
+      b.appendChild(h('span', { class: 'etq-larga', text: largo }));
+      b.appendChild(h('span', { class: 'etq-corta', 'aria-hidden': 'true', text: corto }));
+    });
     var btnTema = h('button', { type: 'button', class: 'btn btn--fantasma btn--icono', 'aria-label': 'Cambiar entre tema claro y oscuro', title: 'Tema claro / oscuro' });
     btnTema.addEventListener('click', function () { set({ tema: state.tema === 'oscuro' ? 'claro' : 'oscuro' }); });
     var btnAj = h('button', { type: 'button', class: 'btn btn--fantasma btn--icono', 'aria-label': 'Ajustes de apariencia', 'aria-expanded': 'false', 'aria-haspopup': 'dialog', title: 'Ajustes' }, C.icono('ajustes'));
@@ -351,6 +359,81 @@
     }, { passive: true });
   }
 
+  // ---------- Versión y actualizaciones ----------
+  var VERSION = window.GC_VERSION || '0.0.0';
+  var REPO = 'KikeMuller/GastosComunesHappy';
+  var URL_RELEASES = 'https://github.com/' + REPO + '/releases';
+  var URL_DESCARGA = URL_RELEASES + '/latest/download/dashboard-comunidad.html';
+
+  function compararVersion(a, b) {
+    var x = String(a).replace(/^v/i, '').split('.').map(Number), y = String(b).replace(/^v/i, '').split('.').map(Number);
+    for (var i = 0; i < 3; i++) { var d = (x[i] || 0) - (y[i] || 0); if (d) return d > 0 ? 1 : -1; }
+    return 0;
+  }
+
+  /**
+   * Consulta la última versión publicada en GitHub. Solo se ejecuta cuando la persona lo pide:
+   * no envía ningún dato del dashboard (sin cookies ni referer); GitHub solo ve la consulta.
+   */
+  function buscarActualizacion() {
+    if (!window.fetch) return Promise.reject(new Error('Este navegador no permite la consulta.'));
+    return fetch('https://api.github.com/repos/' + REPO + '/releases/latest', {
+      headers: { Accept: 'application/vnd.github+json' }, credentials: 'omit', referrerPolicy: 'no-referrer', cache: 'no-store'
+    }).then(function (r) {
+      if (!r.ok) throw new Error('GitHub respondió ' + r.status + '.');
+      return r.json();
+    }).then(function (rel) {
+      var ultima = String(rel.tag_name || '').replace(/^v/i, '');
+      return { instalada: VERSION, ultima: ultima, hayNueva: compararVersion(ultima, VERSION) > 0, url: rel.html_url || URL_RELEASES, fecha: rel.published_at, titulo: rel.name };
+    });
+  }
+
+  function enlaceExterno(texto, url, clase) {
+    return h('a', { href: url, target: '_blank', rel: 'noopener noreferrer', class: clase || null, text: texto });
+  }
+
+  /** Muestra el resultado de la búsqueda dentro de un contenedor. */
+  function verificarEn(cont, boton) {
+    cont.innerHTML = '';
+    cont.appendChild(h('span', { class: 'tenue', text: 'Consultando GitHub…' }));
+    if (boton) boton.disabled = true;
+    buscarActualizacion().then(function (res) {
+      cont.innerHTML = '';
+      if (res.hayNueva) {
+        cont.appendChild(h('div', { class: 'nota nota--atencion' }, [h('span', null, [
+          h('b', { text: 'Hay una versión nueva: v' + res.ultima + '. ' }),
+          'Tienes la v' + res.instalada + '. ',
+          enlaceExterno('Descargar', URL_DESCARGA), ' · ', enlaceExterno('Ver novedades', res.url)
+        ])]));
+      } else {
+        cont.appendChild(h('div', { class: 'nota' }, [h('span', { text: 'Tienes la última versión (v' + res.instalada + ').' })]));
+      }
+    }).catch(function (e) {
+      cont.innerHTML = '';
+      cont.appendChild(h('div', { class: 'nota nota--atencion' }, [h('span', null, [
+        'No se pudo consultar GitHub (¿sin conexión?). ', enlaceExterno('Revisar en GitHub', URL_RELEASES)
+      ])]));
+      console.warn('Búsqueda de actualizaciones:', e && e.message);
+    }).then(function () { if (boton) boton.disabled = false; });
+  }
+
+  function bloqueVersion() {
+    var res = h('div', { class: 'version-resultado', 'aria-live': 'polite' });
+    var btn = h('button', { type: 'button', class: 'btn btn--secundario btn--sm', text: 'Buscar actualizaciones' });
+    btn.addEventListener('click', function (e) { e.stopPropagation(); verificarEn(res, btn); });
+    return h('div', { class: 'version-bloque' }, [
+      h('div', { class: 'fila', style: { justifyContent: 'space-between', alignItems: 'center', gap: '10px' } }, [
+        h('span', null, ['Versión instalada ', h('b', { text: 'v' + VERSION })]), btn
+      ]),
+      res,
+      h('p', { class: 'ayuda-campo', style: { marginTop: '6px' }, text: 'Solo al presionar el botón se consulta a GitHub cuál es la última versión publicada. No se envía ningún dato de tus cartolas.' })
+    ]);
+  }
+
+  function abrirVersion() {
+    c().modal({ titulo: 'Versión del dashboard', contenido: bloqueVersion(), acciones: [{ texto: 'Cerrar', tipo: 'secundario', valor: null }] });
+  }
+
   function construirAjustes() {
     var C = c();
     var muestras = COLORES.map(function (col) {
@@ -371,7 +454,9 @@
       h('div', { style: { margin: '6px 0 14px' } }, reset),
       h('h4', { text: 'Privacidad' }),
       prov.el,
-      h('p', { class: 'ayuda-campo', style: { marginTop: '8px' }, text: 'En modo presentación los nombres de personas siempre se ocultan.' })
+      h('p', { class: 'ayuda-campo', style: { marginTop: '8px' }, text: 'En modo presentación los nombres de personas siempre se ocultan.' }),
+      h('h4', { style: { marginTop: '14px' }, text: 'Versión' }),
+      bloqueVersion()
     ]);
   }
 
@@ -411,6 +496,9 @@
       if (enMas) alguno = true;
     });
     navRefs.btnMas.hidden = !alguno;
+    // Si ninguna sección cabe en la barra (celulares), el botón agrupa todo: "Secciones".
+    var enBarra = disp.filter(function (s) { return !navRefs.links[s.id].classList.contains('en-mas'); }).length;
+    navRefs.btnMas.firstChild.nodeValue = enBarra ? 'Más ' : 'Secciones ';
     if (!alguno) navRefs.menuMas.hidden = true;
     resaltarNav();
   }
@@ -447,7 +535,9 @@
     pie.innerHTML = '';
     pie.appendChild(h('p', null, ['Todo se procesa y se guarda solo en este navegador: ningún PDF ni dato financiero sale de tu computador. ',
       h('b', { text: 'Borrar los datos del navegador elimina lo guardado' }), '; descarga un respaldo JSON de vez en cuando.']));
-    pie.appendChild(h('p', { text: 'Dashboard Comunidad · funciona sin conexión' }));
+    var lnk = h('button', { type: 'button', class: 'btn btn--enlace peq', text: 'Buscar actualizaciones' });
+    lnk.addEventListener('click', abrirVersion);
+    pie.appendChild(h('p', null, ['Gastos Comunes Happy v' + VERSION + ' · funciona sin conexión · ', lnk]));
   }
 
   // ---------- Render de secciones ----------
@@ -522,7 +612,8 @@
     state: state, set: set, ir: ir, verRegistros: verRegistros, verMovimiento: verMovimiento,
     render: programarRender, renderAhora: renderTodo, periodos: periodos, secciones: SECCIONES,
     seleccion: seleccion, periodosSel: periodosSel,
-    modoPresentacion: function () { return state.modo === 'presentacion'; }
+    modoPresentacion: function () { return state.modo === 'presentacion'; },
+    version: VERSION, buscarActualizacion: buscarActualizacion
   };
 
   // Errores inesperados (p. ej. al dibujar un gráfico): se muestran para poder reportarlos.

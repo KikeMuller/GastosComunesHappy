@@ -6,10 +6,10 @@ Cargas los PDF de tus cartolas y el dashboard extrae egresos, fondos, agua calie
 
 ![Recorrido de 15 segundos por el dashboard con datos de demostración](docs/video/demo.gif)
 
-*Recorrido de 15 segundos con datos ficticios ([ver en MP4](docs/video/demo.mp4)).*
+*Recorrido de 15 segundos con datos ficticios ([ver en MP4](docs/video/demo.mp4) · [versión vertical de 40 s para redes sociales](docs/video/demo-vertical.mp4)).*
 
 > [!IMPORTANT]
-> **Tus datos nunca salen de tu computador.** Todo se procesa dentro de tu navegador. No hay servidor, no hay cuentas y no se sube nada a internet. La página incluso bloquea cualquier conexión de red mediante una política de seguridad (Content-Security-Policy). Los PDF y los datos extraídos quedan guardados solo en el almacenamiento local de tu navegador.
+> **Tus datos nunca salen de tu computador.** Todo se procesa dentro de tu navegador. No hay servidor, no hay cuentas y no se sube nada a internet. La página bloquea toda conexión de red mediante una política de seguridad (Content-Security-Policy), con una sola excepción opcional: el botón **Buscar actualizaciones**, que solo consulta en GitHub cuál es la última versión publicada. Los PDF y los datos extraídos quedan guardados solo en el almacenamiento local de tu navegador.
 
 > [!WARNING]
 > **Aviso de responsabilidad.** Este dashboard es un proyecto personal y **puede contener errores** de lectura, de cálculo o de interpretación. No reemplaza la revisión de las cartolas originales ni la información oficial de tu administración. **El uso es de exclusiva responsabilidad de quien lo utiliza.** Verifica siempre las cifras importantes contra la cartola original antes de tomar decisiones o compartirlas. No es un producto de Comunidad Feliz ni está afiliado a esa empresa.
@@ -44,7 +44,10 @@ En la barra superior eliges:
 - **Analizar por:** *monto total* del gasto (recomendado para analizar el gasto real de la comunidad) o *monto prorrateado* (la parte asignada según prorrateo). Nunca se suman entre sí.
 - **Modo:** *Administración* (todos los datos y herramientas de edición) o *Presentación* (oculta datos personales para mostrar en una asamblea).
 
-### 5. Respaldar
+### 5. Mantenerlo al día
+La versión instalada aparece al pie de la página y en **Ajustes** (ícono de engranaje). Presiona **Buscar actualizaciones** para saber si hay una versión nueva y descargarla. Al reemplazar el archivo, tus datos guardados en el navegador se mantienen.
+
+### 6. Respaldar
 Desde **Respaldo y exportación** descarga periódicamente un **respaldo JSON**. Borrar los datos del navegador (historial, cookies o "datos de sitios") elimina lo guardado. Con el respaldo lo recuperas en cualquier navegador o computador con **Importar respaldo**.
 
 ### ¿Quieres probarlo sin tus cartolas?
@@ -88,7 +91,8 @@ Descarga [`respaldo-demo.json`](https://github.com/KikeMuller/GastosComunesHappy
 
 ## Privacidad
 
-- **Sin internet:** el archivo funciona 100% offline. No usa CDN, APIs, analítica ni servicios de OCR o IA externos. Todas las librerías van dentro del HTML.
+- **Sin internet:** el archivo funciona 100% offline. No usa CDN, analítica ni servicios de OCR o IA externos. Todas las librerías van dentro del HTML.
+- **Buscar actualizaciones (opcional):** solo cuando presionas ese botón (en Ajustes o al pie de la página), el dashboard consulta la API pública de GitHub para saber cuál es la última versión publicada. La consulta no envía cookies ni datos de tus cartolas; GitHub solo ve que alguien pidió la versión. Es la única conexión que la página permite; cualquier otra está bloqueada. Sin conexión, el dashboard sigue funcionando igual.
 - **Sin servidor:** se abre directamente desde tu disco (`file://`).
 - **Almacenamiento local:** los datos se guardan en el navegador (IndexedDB), solo en tu equipo. Cada navegador guarda lo suyo: si abres el archivo en otro navegador, aparecerá vacío.
 - **Modo presentación:** oculta nombres de personas, números de documento, RUT, unidad, residente, datos bancarios y observaciones.

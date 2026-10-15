@@ -5,7 +5,7 @@ Requerimientos funcionales completos: `CLAUDE.md` (raíz). Este documento fija *
 ## 1. Restricciones duras
 
 - Entrega: un único `dashboard-comunidad.html` generado con `node tools/build.js`. Se abre con doble clic (`file://`), 100% offline.
-- Sin `fetch`/XHR, sin CDN, sin módulos ES (`import`/`export`). Cada archivo de `src/js` es un IIFE clásico que cuelga su API de `window.GC.*`.
+- Sin `fetch`/XHR (única excepción: la búsqueda de actualizaciones a pedido en `app.js`, contra `https://api.github.com`, permitida en la CSP con `connect-src`), sin CDN, sin módulos ES (`import`/`export`). Cada archivo de `src/js` es un IIFE clásico que cuelga su API de `window.GC.*`.
 - Orden de carga: ver `APP_SCRIPTS` en `tools/build.js`. Un módulo solo puede usar módulos cargados antes, salvo dentro de funciones invocadas después de `DOMContentLoaded`.
 - Librerías disponibles como globales: `pdfjsLib` (pdf.js 3.11 legacy), `Chart` (Chart.js 4.4). Fuentes embebidas: `Poppins` (500/600/700) para títulos, `Inter` (400/500/600) para texto.
 - Sin errores en consola en uso normal. Sin `localStorage` para datos (solo preferencias, vía `GC.util.prefs`).
